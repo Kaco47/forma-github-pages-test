@@ -1,0 +1,239 @@
+{
+  "base": "c123bedd0e67973ea9ace44747fb0e162fc62d0f",
+  "status": "passed",
+  "artifactFiles": 63,
+  "httpPassed": 63,
+  "checkedResourcePaths": 38,
+  "nativeImageCount": 7,
+  "inlineFlightImageCount": 5,
+  "codecVariantsVerified": 42,
+  "fullSizePngCardsUnchanged": true,
+  "sceneGeometryCssUnchanged": true,
+  "baselineCompatibilityUrlsRetained": true,
+  "oldArtifactBytes": 20080732,
+  "newArtifactBytes": 28020472,
+  "budgets": [
+    {
+      "viewport": 375,
+      "dpr": 1,
+      "beforeBytes": 7369712,
+      "afterBytes": 744824,
+      "reductionPercent": 89.89,
+      "selected": [
+        "media/v1.1/logo-64.webp",
+        "media/v1.1/auto-240.webp",
+        "media/v1.1/power-240.webp",
+        "media/v1.1/tws-240.webp",
+        "media/v1.1/rock-mobile-417.webp"
+      ]
+    },
+    {
+      "viewport": 375,
+      "dpr": 2,
+      "beforeBytes": 7369712,
+      "afterBytes": 842896,
+      "reductionPercent": 88.56,
+      "selected": [
+        "media/v1.1/logo-64.webp",
+        "media/v1.1/auto-240.webp",
+        "media/v1.1/power-240.webp",
+        "media/v1.1/tws-360.webp",
+        "media/v1.1/rock-mobile-417.webp"
+      ]
+    },
+    {
+      "viewport": 375,
+      "dpr": 3,
+      "beforeBytes": 7369712,
+      "afterBytes": 1214512,
+      "reductionPercent": 83.52,
+      "selected": [
+        "media/v1.1/logo-96.webp",
+        "media/v1.1/auto-360.webp",
+        "media/v1.1/power-360.webp",
+        "media/v1.1/tws-480.webp",
+        "media/v1.1/rock-mobile-417.webp"
+      ]
+    },
+    {
+      "viewport": 390,
+      "dpr": 1,
+      "beforeBytes": 7369712,
+      "afterBytes": 744824,
+      "reductionPercent": 89.89,
+      "selected": [
+        "media/v1.1/logo-64.webp",
+        "media/v1.1/auto-240.webp",
+        "media/v1.1/power-240.webp",
+        "media/v1.1/tws-240.webp",
+        "media/v1.1/rock-mobile-417.webp"
+      ]
+    },
+    {
+      "viewport": 390,
+      "dpr": 2,
+      "beforeBytes": 7369712,
+      "afterBytes": 842896,
+      "reductionPercent": 88.56,
+      "selected": [
+        "media/v1.1/logo-64.webp",
+        "media/v1.1/auto-240.webp",
+        "media/v1.1/power-240.webp",
+        "media/v1.1/tws-360.webp",
+        "media/v1.1/rock-mobile-417.webp"
+      ]
+    },
+    {
+      "viewport": 390,
+      "dpr": 3,
+      "beforeBytes": 7369712,
+      "afterBytes": 1214512,
+      "reductionPercent": 83.52,
+      "selected": [
+        "media/v1.1/logo-96.webp",
+        "media/v1.1/auto-360.webp",
+        "media/v1.1/power-360.webp",
+        "media/v1.1/tws-480.webp",
+        "media/v1.1/rock-mobile-417.webp"
+      ]
+    },
+    {
+      "viewport": 768,
+      "dpr": 1,
+      "beforeBytes": 9007619,
+      "afterBytes": 2165212,
+      "reductionPercent": 75.96,
+      "selected": [
+        "media/v1.1/logo-64.webp",
+        "media/v1.1/auto-240.webp",
+        "media/v1.1/power-240.webp",
+        "media/v1.1/tws-360.webp",
+        "media/v1.1/rock-desktop-1672.webp"
+      ]
+    },
+    {
+      "viewport": 768,
+      "dpr": 2,
+      "beforeBytes": 9007619,
+      "afterBytes": 3169406,
+      "reductionPercent": 64.81,
+      "selected": [
+        "media/v1.1/logo-64.webp",
+        "media/v1.1/auto-480.webp",
+        "media/v1.1/power-480.webp",
+        "media/v1.1/tws-720.webp",
+        "media/v1.1/rock-desktop-1672.webp"
+      ]
+    },
+    {
+      "viewport": 768,
+      "dpr": 3,
+      "beforeBytes": 9007619,
+      "afterBytes": 4390146,
+      "reductionPercent": 51.26,
+      "selected": [
+        "media/v1.1/logo-96.webp",
+        "media/v1.1/auto-720.webp",
+        "media/v1.1/power-720.webp",
+        "media/v1.1/tws-960.webp",
+        "media/v1.1/rock-desktop-1672.webp"
+      ]
+    },
+    {
+      "viewport": 1440,
+      "dpr": 1,
+      "beforeBytes": 9007619,
+      "afterBytes": 2067140,
+      "reductionPercent": 77.05,
+      "selected": [
+        "media/v1.1/logo-64.webp",
+        "media/v1.1/auto-240.webp",
+        "media/v1.1/power-240.webp",
+        "media/v1.1/tws-240.webp",
+        "media/v1.1/rock-desktop-1672.webp"
+      ]
+    },
+    {
+      "viewport": 1440,
+      "dpr": 2,
+      "beforeBytes": 9007619,
+      "afterBytes": 2531326,
+      "reductionPercent": 71.9,
+      "selected": [
+        "media/v1.1/logo-64.webp",
+        "media/v1.1/auto-360.webp",
+        "media/v1.1/power-360.webp",
+        "media/v1.1/tws-480.webp",
+        "media/v1.1/rock-desktop-1672.webp"
+      ]
+    },
+    {
+      "viewport": 1440,
+      "dpr": 3,
+      "beforeBytes": 9007619,
+      "afterBytes": 3954086,
+      "reductionPercent": 56.1,
+      "selected": [
+        "media/v1.1/logo-96.webp",
+        "media/v1.1/auto-720.webp",
+        "media/v1.1/power-720.webp",
+        "media/v1.1/tws-720.webp",
+        "media/v1.1/rock-desktop-1672.webp"
+      ]
+    },
+    {
+      "viewport": 1920,
+      "dpr": 1,
+      "beforeBytes": 9007619,
+      "afterBytes": 2067140,
+      "reductionPercent": 77.05,
+      "selected": [
+        "media/v1.1/logo-64.webp",
+        "media/v1.1/auto-240.webp",
+        "media/v1.1/power-240.webp",
+        "media/v1.1/tws-240.webp",
+        "media/v1.1/rock-desktop-1672.webp"
+      ]
+    },
+    {
+      "viewport": 1920,
+      "dpr": 2,
+      "beforeBytes": 9007619,
+      "afterBytes": 2531326,
+      "reductionPercent": 71.9,
+      "selected": [
+        "media/v1.1/logo-64.webp",
+        "media/v1.1/auto-360.webp",
+        "media/v1.1/power-360.webp",
+        "media/v1.1/tws-480.webp",
+        "media/v1.1/rock-desktop-1672.webp"
+      ]
+    },
+    {
+      "viewport": 1920,
+      "dpr": 3,
+      "beforeBytes": 9007619,
+      "afterBytes": 3954086,
+      "reductionPercent": 56.1,
+      "selected": [
+        "media/v1.1/logo-96.webp",
+        "media/v1.1/auto-720.webp",
+        "media/v1.1/power-720.webp",
+        "media/v1.1/tws-720.webp",
+        "media/v1.1/rock-desktop-1672.webp"
+      ]
+    }
+  ],
+  "browserChecks": {
+    "available": false,
+    "pending": [
+      "375/390/768/1440/1920 screenshots",
+      "horizontal overflow / scrollWidth",
+      "Tab / Shift+Tab / Enter / Space / Escape interactions",
+      "mobile menu after hydration",
+      "200% text zoom and wrapping",
+      "LCP / CLS / INP / Lighthouse before vs after"
+    ]
+  },
+  "note": "Byte budgets follow srcset/sizes at the stated DPR; they are not measured browser transfers or LCP timings. Lossless matches the reference resized with Lanczos, not a browser screenshot."
+}
