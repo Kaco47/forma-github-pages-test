@@ -1,14 +1,12 @@
-# FORMA GitHub Pages test
+# FORMA static website
 
-Isolated static test copy of https://github.com/Kaco47/forma-site-deploy
-Source commit: b1cf5581399f3e6f8915a3b171c661c6c456ee36
+Static export prepared for https://forma-cards.ru/.
 
-Test URL: https://kaco47.github.io/forma-github-pages-test/
+Production assets use root-relative paths. Canonical, Open Graph, robots.txt
+and sitemap.xml use the production domain. CNAME contains forma-cards.ru.
 
-The original export was copied without Git history. Root asset paths in HTML,
-Flight data, CSS and JavaScript were prefixed with `/forma-github-pages-test`.
-The Turbopack chunk base path and preview metadata use the test location.
-`.nojekyll` preserves underscore directories. HTML is marked noindex/nofollow.
+The preparation branch does not change the active GitHub Pages deployment.
+Domain activation and DNS changes require separate approval.
 
-Publish from the main branch root using GitHub Pages. No custom domain.
-The production project, Cloudflare and DNS are independent of this repository.
+The prior working test snapshot is preserved in branch
+backup/test-working-2026-10-21.
