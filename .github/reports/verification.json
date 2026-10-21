@@ -1,8 +1,8 @@
 {
   "base": "c123bedd0e67973ea9ace44747fb0e162fc62d0f",
   "status": "passed",
-  "artifactFiles": 63,
-  "httpPassed": 63,
+  "artifactFiles": 64,
+  "httpPassed": 64,
   "checkedResourcePaths": 38,
   "nativeImageCount": 7,
   "inlineFlightImageCount": 5,
@@ -11,7 +11,7 @@
   "sceneGeometryCssUnchanged": true,
   "baselineCompatibilityUrlsRetained": true,
   "oldArtifactBytes": 20080732,
-  "newArtifactBytes": 28020472,
+  "newArtifactBytes": 28079389,
   "budgets": [
     {
       "viewport": 375,
@@ -225,15 +225,8 @@
     }
   ],
   "browserChecks": {
-    "available": false,
-    "pending": [
-      "375/390/768/1440/1920 screenshots",
-      "horizontal overflow / scrollWidth",
-      "Tab / Shift+Tab / Enter / Space / Escape interactions",
-      "mobile menu after hydration",
-      "200% text zoom and wrapping",
-      "LCP / CLS / INP / Lighthouse before vs after"
-    ]
+    "report": "text-resize/summary.json",
+    "note": "Browser checks are recorded separately from static verification; LCP / CLS / INP / Lighthouse remain unmeasured."
   },
   "note": "Byte budgets follow srcset/sizes at the stated DPR; they are not measured browser transfers or LCP timings. Lossless matches the reference resized with Lanczos, not a browser screenshot."
 }

@@ -6,7 +6,7 @@ import { execFileSync } from 'node:child_process';
 import { createHash } from 'node:crypto';
 import { parse } from 'parse5';
 import sharp from 'sharp';
-import { ROOT, BASE, assetSpecs, imageProps, cardSizes } from './optimize.mjs';
+import { ROOT, BASE, assetSpecs, imageProps, cardSizes, textResizeCss } from './optimize.mjs';
 
 const read = n => fs.readFile(path.join(ROOT, n));
 const base = n => execFileSync('git', ['show', `${BASE}:${n}`], { cwd: ROOT, maxBuffer: 20 * 1024 * 1024 });
@@ -43,14 +43,15 @@ for (const n of ['CNAME', 'robots.txt', 'sitemap.xml']) assert.equal((await read
 assert.equal(hash(await read('favicon.ico')), hash(base('favicon.ico')));
 for (const name of ['auto', 'power', 'tws']) assert.equal(hash(await read(`hero/layers/${name}.png`)), hash(base(`hero/layers/${name}.png`)));
 
-// The only CSS changes permitted by this PR are resource URLs, the two mobile
-// font sizes/wrapping, and the new anchor's scroll margin. Geometry is invariant.
+// Preserve the baseline CSS and allow only the readability/anchor additions
+// plus the explicitly scoped mobile text-resize fix. No global clipping rule.
 const css = (await read(renamed['.css'])).toString('utf8');
 const originalCss = base('_next/static/chunks/3vnxegmc6nkun.css').toString('utf8');
 const expectedCssPrefix = originalCss.replaceAll('url(/hero/backgrounds/rock-background-desktop.png)', 'url(/media/v1.1/rock-desktop-1672.webp)')
   .replaceAll('url(/hero/backgrounds/rock-background-mobile.png)', 'url(/media/v1.1/rock-mobile-417.webp)');
 assert.ok(css.startsWith(expectedCssPrefix));
-assert.match(css.slice(expectedCssPrefix.length), /^\n\/\* FORMA v1\.1:[\s\S]*?font-size:11px[\s\S]*?font-size:11px[\s\S]*?#concepts\{scroll-margin-top:24px\}\n$/);
+assert.ok(css.endsWith(textResizeCss));
+assert.match(css.slice(expectedCssPrefix.length, -textResizeCss.length), /^\n\/\* FORMA v1\.1:[\s\S]*?font-size:11px[\s\S]*?font-size:11px[\s\S]*?#concepts\{scroll-margin-top:24px\}\n$/);
 for (const item of metrics.renamed) {
   assert.ok(hash(await read(item.to)).startsWith(path.basename(item.to).match(/v1_1-([0-9a-f]+)/)[1]));
   assert.equal(hash(await read(item.from)), hash(base(item.from)), 'Cached baseline chunk must remain available');
@@ -185,8 +186,8 @@ const report = {
   nativeImageCount: images.length, inlineFlightImageCount: flightImages.length, codecVariantsVerified: metrics.variants.length,
   fullSizePngCardsUnchanged: true, sceneGeometryCssUnchanged: true, baselineCompatibilityUrlsRetained: true,
   oldArtifactBytes: beforeArtifactBytes, newArtifactBytes: artifactBytes, budgets,
-  browserChecks: { available: false, pending: ['375/390/768/1440/1920 screenshots', 'horizontal overflow / scrollWidth', 'Tab / Shift+Tab / Enter / Space / Escape interactions', 'mobile menu after hydration', '200% text zoom and wrapping', 'LCP / CLS / INP / Lighthouse before vs after'] },
+  browserChecks: { report: 'text-resize/summary.json', note: 'Browser checks are recorded separately from static verification; LCP / CLS / INP / Lighthouse remain unmeasured.' },
   note: 'Byte budgets follow srcset/sizes at the stated DPR; they are not measured browser transfers or LCP timings. Lossless matches the reference resized with Lanczos, not a browser screenshot.'
 };
 await fs.writeFile(path.join(ROOT, '.github/reports/verification.json'), JSON.stringify(report, null, 2) + '\n');
-console.log(JSON.stringify({ status: report.status, artifactFiles: report.artifactFiles, httpPassed: passedHttp, checkedResourcePaths: references.size, codecVariantsVerified: report.codecVariantsVerified, oldArtifactBytes: beforeArtifactBytes, newArtifactBytes: artifactBytes, browserAvailable: false }, null, 2));
+console.log(JSON.stringify({ status: report.status, artifactFiles: report.artifactFiles, httpPassed: passedHttp, checkedResourcePaths: references.size, codecVariantsVerified: report.codecVariantsVerified, oldArtifactBytes: beforeArtifactBytes, newArtifactBytes: artifactBytes }, null, 2));

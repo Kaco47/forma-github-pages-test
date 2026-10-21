@@ -29,6 +29,10 @@ const webpUrl = (spec, width) => `/media/v1.1/${spec.key}-${width}.webp`;
 export const srcset = spec => spec.widths.map(w => `${webpUrl(spec, w)} ${w}w`).join(', ');
 const fillStyle = { position: 'absolute', height: '100%', width: '100%', left: 0, top: 0, right: 0, bottom: 0, color: 'transparent' };
 const MAIN_CTA = 'Смотреть дизайн-концепты';
+// Keep the existing mobile line-break policy, but make the emphasized phrase
+// its own wrappable box: display:none on the preceding br otherwise joins words.
+// Header controls wrap only when their intrinsic text widths no longer fit.
+export const textResizeCss = '\n/* FORMA v1.1: mobile text-only resize without clipping. */\n@media (max-width:767px){.contact-section h2{overflow-wrap:anywhere}.contact-section h2 em{display:inline-block;max-width:100%}.header-inner{flex-wrap:wrap;height:auto;min-height:72px}.header-inner .menu-toggle{flex-shrink:0;white-space:nowrap}}\n';
 
 export function imageProps(props, context = '') {
   const spec = specBySource.get(props.src);
@@ -166,7 +170,10 @@ async function generate() {
 }
 
 async function build() {
-  const records = await generate();
+  // CSS-only iterations can reuse the already verified image variants.
+  const records = process.argv.includes('--reuse-images')
+    ? JSON.parse(await fs.readFile(path.join(ROOT, '.github/reports/image-metrics.json'), 'utf8')).variants
+    : await generate();
   for (const name of tracked.filter(n => /\.(html|txt|css|js)$/.test(n))) {
     let text = original(name).toString('utf8');
     if (name.endsWith('.html')) text = adaptHtml(text);
@@ -176,6 +183,7 @@ async function build() {
       text = text.replaceAll('url(/hero/backgrounds/rock-background-desktop.png)', 'url(/media/v1.1/rock-desktop-1672.webp)')
         .replaceAll('url(/hero/backgrounds/rock-background-mobile.png)', 'url(/media/v1.1/rock-mobile-417.webp)');
       text += '\n/* FORMA v1.1: readability only; scene geometry and effects are unchanged. */\n@media (max-width:767px){.directed-hero .platforms{font-size:11px}.directed-hero .approved-art figcaption{font-size:11px;flex-wrap:wrap;row-gap:4px}}\n#concepts{scroll-margin-top:24px}\n';
+      text += textResizeCss;
     }
     await fs.writeFile(path.join(ROOT, name), text);
   }
