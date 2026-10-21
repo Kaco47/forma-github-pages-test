@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://forma-cards.ru/sitemap.xml
