@@ -1,1 +1,13 @@
-{"name":"forma-static-export-tools","private":true,"type":"module","dependencies":{"parse5":"8.0.0","sharp":"0.35.5"},"scripts":{"build":"node optimize.mjs","verify":"node verify.mjs"}}
+{
+  "name": "forma-static-export-tools",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "parse5": "8.0.0",
+    "sharp": "0.35.5"
+  },
+  "scripts": {
+    "build": "node image-runtime.mjs",
+    "verify": "node image-runtime.mjs"
+  }
+}

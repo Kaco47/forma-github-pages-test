@@ -5,6 +5,7 @@ import {createRequire} from 'node:module';
 import {fileURLToPath} from 'node:url';
 const dir=path.dirname(fileURLToPath(import.meta.url));
 const pkg=JSON.parse(fs.readFileSync(path.join(dir,'package.json')));
+assert.deepEqual(pkg.scripts,{build:'node assemble.mjs',verify:'node verify.mjs',security:'node check-dependencies.mjs',negative:'node negative-tests.mjs'},'CI scripts allowlist changed');
 assert.deepEqual(pkg.dependencies,{parse5:'8.0.0'},'CI dependency allowlist changed');
 for(const field of ['devDependencies','optionalDependencies','peerDependencies','bundledDependencies','overrides']) assert.ok(!pkg[field],field+' not allowed');
 const lock=JSON.parse(fs.readFileSync(path.join(dir,'package-lock.json')));

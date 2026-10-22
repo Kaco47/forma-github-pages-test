@@ -1,12 +1,14 @@
+import './image-runtime.mjs';
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import http from 'node:http';
 import { execFileSync } from 'node:child_process';
 import { createHash } from 'node:crypto';
-import { parse } from 'parse5';
-import sharp from 'sharp';
-import { ROOT, BASE, assetSpecs, imageProps, cardSizes, textResizeCss } from './optimize.mjs';
+const { parse } = await import('parse5');
+// This dynamic import is unreachable while the shared safety gate is closed.
+const { default: sharp } = await import('sharp');
+const { ROOT, BASE, assetSpecs, imageProps, cardSizes, textResizeCss } = await import('./optimize.mjs');
 
 const read = n => fs.readFile(path.join(ROOT, n));
 const base = n => execFileSync('git', ['show', `${BASE}:${n}`], { cwd: ROOT, maxBuffer: 20 * 1024 * 1024 });

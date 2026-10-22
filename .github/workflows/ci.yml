@@ -18,10 +18,10 @@ jobs:
       - run: node .github/ci/check-dependencies.mjs --preflight
       - run: npm ci --prefix .github/ci --ignore-scripts
       - run: node .github/ci/check-dependencies.mjs
-      - run: npm run verify --prefix .github/ci
-      - run: npm run build --prefix .github/ci
-      - run: npm run verify --prefix .github/ci
-      - run: npm run negative --prefix .github/ci
+      - run: node .github/ci/verify.mjs
+      - run: node .github/ci/assemble.mjs
+      - run: node .github/ci/verify.mjs
+      - run: node .github/ci/negative-tests.mjs
       - name: Require reproducible site output
         run: |
           git diff --exit-code -- . ':!.github'

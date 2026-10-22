@@ -1,29 +1,53 @@
-# FORMA v1.1 CI boundary
+# FORMA v1.1: модель доверия и команды
 
-The approved export is commit 52dbd9191ca3bab73d952de868c466eec0f73dac.
-approved-artifacts.json pins every public file, including all images and cached chunks.
-check-artifacts.mjs independently reconstructs that manifest from immutable Git objects,
-compares it with the committed manifest, then checks the complete working inventory and bytes.
-Changing an image and its manifest together fails. CI never writes an approval manifest.
-Preparation image evidence is also compared with the approved snapshot.
+GitHub Actions обнаруживает ошибки, проверяет зависимости, структуру экспорта,
+ресурсы и целостность файлов. Проверяющий код и политика находятся в том же PR.
+Поэтому CI не является независимой защитой от намеренного изменения собственной
+политики. Зелёные статусы сами по себе не разрешают merge.
 
-Install only this package: npm ci --prefix .github/ci --ignore-scripts.
-Run preflight before installation, and check-dependencies.mjs afterwards.
-The complete dependency allowlist is parse5 8.0.0 and entities 6.0.1.
-No native image decoder is installed or invoked by either CI job.
+Перед merge обязателен отдельный независимый аудит точного итогового SHA:
+diff от защищённой main, workflow, CI и legacy tools, зависимости, исполняемые
+пути, контрольные суммы публичного экспорта и Actions для того же SHA.
+Любой новый коммит отменяет актуальность прежнего заключения аудита.
+Требуется отдельное разрешение владельца; PR остаётся Draft до него.
 
-../tools is the independent offline preparation package, retaining its existing lockfile
-and pixel comparison tooling. Do not install or run it in ordinary CI. Its current
-libheif remains below the security floor; future image preparation needs patched,
-isolated tooling and separate approval. CI does not rerun codec-quality comparisons.
-Existing images and quality reports are pinned, not re-encoded.
+## Обычный CI
 
-The text-only assembler preserves the old generator's deterministic HTML/CSS/Flight
-transforms and reuses approved image records. Verification retains resource, link,
-HTTP, hydration, CSS, source-preservation and budget checks.
+Утверждённый снимок: 52dbd9191ca3bab73d952de868c466eec0f73dac.
+approved-artifacts.json закрепляет все публичные файлы. check-artifacts.mjs
+сверяет манифест с Git-объектами этого снимка, затем состав и байты рабочих файлов.
+Одновременная замена изображения и его хеша отклоняется неизменённым checker.
+Однако сам checker и указатель на снимок изменяемы в PR: их проверяет ручной аудит.
 
-Trust boundary: a repository author can edit workflow/checker code or change the pinned
-approval commit. Such changes require explicit owner review; in-repository CI cannot
-protect its own policy against an administrator rewriting that policy. Updating images
-requires a separately reviewed preparation report, new baseline and manifest; never
-accept automatically refreshed hashes.
+Команды (из корня отдельной копии):
+
+```text
+node .github/ci/check-dependencies.mjs --preflight
+npm ci --prefix .github/ci --ignore-scripts
+node .github/ci/check-dependencies.mjs
+node .github/ci/verify.mjs
+node .github/ci/assemble.mjs
+node .github/ci/verify.mjs
+node .github/ci/negative-tests.mjs
+npm audit --prefix .github/ci --audit-level=low
+```
+
+Разрешены только parse5 8.0.0 и entities 6.0.1 с закреплёнными integrity.
+Точный состав npm scripts проверяется до установки. Workflow запускает JS через
+node; npm lifecycle hooks не вызываются. Новые hooks отклоняются.
+Изображения не декодируются и не перекодируются; проверяются ранее принятые байты.
+Попиксельное качество подтверждено прежними отчётами, а не заново вычисляется CI.
+
+## Старые инструменты обработки изображений
+
+Пакет ../tools не устанавливать. Его старый lockfile сохраняет уязвимую нативную
+цепочку как историческое описание; это не разрешение на её установку.
+image-runtime.mjs безусловно завершает выполнение до разрешения sharp и чтения
+изображений. Все четыре нативных entry points импортируют этот общий запрет;
+команды build и verify пакета направлены прямо в него. Переключателя окружения нет.
+Снятие запрета допускается только отдельным проверенным изменением после обновления
+и повторной проверки всей цепочки. Исходники и готовые изображения сохранены.
+
+Безопасный test-image-block.mjs инструментирует разрешение модулей и чтение файлов,
+проверяет отказ каждого entry point без установки или загрузки sharp.
+Отрицательные тесты восстанавливают временно изменённые файлы в finally.

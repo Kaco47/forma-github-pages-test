@@ -1,8 +1,10 @@
+import './image-runtime.mjs';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
-import sharp from 'sharp';
-import { ROOT, BASE } from './optimize.mjs';
+// This dynamic import is unreachable while the shared safety gate is closed.
+const { default: sharp } = await import('sharp');
+const { ROOT, BASE } = await import('./optimize.mjs');
 
 // Asset comparison only. This is not a browser screenshot or a layout test.
 const width = 1000, rowHeight = 380;

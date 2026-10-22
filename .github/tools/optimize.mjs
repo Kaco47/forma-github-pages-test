@@ -1,9 +1,11 @@
+import './image-runtime.mjs';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
-import sharp from 'sharp';
+// This dynamic import is unreachable while the shared safety gate is closed.
+const { default: sharp } = await import('sharp');
 
 // Deterministic adapter for the committed static export. No access to the
 // original application, live hosting, credentials, DNS, or GitHub settings.

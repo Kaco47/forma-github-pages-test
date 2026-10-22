@@ -1,5 +1,7 @@
+import './image-runtime.mjs';
 import assert from 'node:assert/strict';
-import sharp from 'sharp';
+// This dynamic import is unreachable while the shared safety gate is closed.
+const { default: sharp } = await import('sharp');
 console.log(JSON.stringify({ platform: process.platform, arch: process.arch, node: process.version, versions: sharp.versions }, null, 2));
 const atLeast = (actual, minimum) => {
   assert.match(actual ?? '', /^\d+\.\d+\.\d+$/);
