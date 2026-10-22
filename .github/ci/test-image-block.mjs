@@ -1,8 +1,13 @@
+import {assertSupportedNode} from './check-node.mjs';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
 import {spawnSync} from 'node:child_process';
 import {fileURLToPath} from 'node:url';
+for(const version of ['20.9.0','22.23.3','23.5.0','25.0.0','24.0.0-rc.1']) assert.throws(()=>assertSupportedNode(version,()=>{}),/requires Node.js 24/);
+for(const version of ['24.0.0','24.22.0']) assertSupportedNode(version,()=>{});
+assert.throws(()=>assertSupportedNode('24.0.0',undefined),/registerHooks is required/);
+console.log('PASS: Node.js 24 policy and required API checks');
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../..');
 // Only this instrumentation executes in children before the safety gate.
 // A dependency resolution or image read is a distinct failure, never a pass.

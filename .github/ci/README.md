@@ -13,6 +13,12 @@ diff от защищённой main, workflow, CI и legacy tools, зависи�
 
 ## Обычный CI
 
+Требуется Node.js 24.x LTS (>=24.0.0 <25), предпочтительно последний поддерживаемый
+патч 24.x. module.registerHooks доступен в этой линии; тесты требуют его явно.
+Оба задания выбирают установленный Node.js 24 из toolcache runner и проверяют
+версию и API до установки пакетов. Если Node.js 24 отсутствует, CI завершается
+ошибкой без возврата к системному Node.js 20/22. Новые Actions не добавляются.
+
 Утверждённый снимок: 52dbd9191ca3bab73d952de868c466eec0f73dac.
 approved-artifacts.json закрепляет все публичные файлы. check-artifacts.mjs
 сверяет манифест с Git-объектами этого снимка, затем состав и байты рабочих файлов.
@@ -22,6 +28,7 @@ approved-artifacts.json закрепляет все публичные файл�
 Команды (из корня отдельной копии):
 
 ```text
+node .github/ci/check-node.mjs
 node .github/ci/check-dependencies.mjs --preflight
 npm ci --prefix .github/ci --ignore-scripts
 node .github/ci/check-dependencies.mjs

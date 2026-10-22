@@ -1,3 +1,4 @@
+import './check-node.mjs';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
@@ -5,12 +6,14 @@ import {createRequire} from 'node:module';
 import {fileURLToPath} from 'node:url';
 const dir=path.dirname(fileURLToPath(import.meta.url));
 const pkg=JSON.parse(fs.readFileSync(path.join(dir,'package.json')));
+assert.deepEqual(pkg.engines,{node:'>=24.0.0 <25'},'CI Node.js requirement changed');
 assert.deepEqual(pkg.scripts,{build:'node assemble.mjs',verify:'node verify.mjs',security:'node check-dependencies.mjs',negative:'node negative-tests.mjs'},'CI scripts allowlist changed');
 assert.deepEqual(pkg.dependencies,{parse5:'8.0.0'},'CI dependency allowlist changed');
 for(const field of ['devDependencies','optionalDependencies','peerDependencies','bundledDependencies','overrides']) assert.ok(!pkg[field],field+' not allowed');
 const lock=JSON.parse(fs.readFileSync(path.join(dir,'package-lock.json')));
 assert.deepEqual(Object.keys(lock.packages).sort(),['','node_modules/entities','node_modules/parse5'],'Unexpected lockfile package');
 assert.deepEqual(lock.packages[''].dependencies,pkg.dependencies);
+assert.deepEqual(lock.packages[''].engines,pkg.engines,'Lockfile Node.js requirement differs');
 for(const [name,version] of [['parse5','8.0.0'],['entities','6.0.1']]) {
  const p=lock.packages['node_modules/'+name];
  assert.equal(p.version,version);
