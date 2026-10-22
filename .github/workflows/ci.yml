@@ -8,8 +8,6 @@ jobs:
   static-integrity:
     runs-on: ubuntu-24.04
     timeout-minutes: 20
-    env:
-      SHARP_IGNORE_GLOBAL_LIBVIPS: '1'
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
@@ -17,10 +15,13 @@ jobs:
           persist-credentials: false
       - name: Check runner Node.js
         run: node --version && node -e "const [a,b]=process.versions.node.split('.').map(Number); if(a<20 || (a===20 && b<9)) process.exit(1)"
-      - run: npm ci --prefix .github/tools --ignore-scripts
-      - run: npm run verify --prefix .github/tools
-      - run: npm run build --prefix .github/tools
-      - run: npm run verify --prefix .github/tools
+      - run: node .github/ci/check-dependencies.mjs --preflight
+      - run: npm ci --prefix .github/ci --ignore-scripts
+      - run: node .github/ci/check-dependencies.mjs
+      - run: npm run verify --prefix .github/ci
+      - run: npm run build --prefix .github/ci
+      - run: npm run verify --prefix .github/ci
+      - run: npm run negative --prefix .github/ci
       - name: Require reproducible site output
         run: |
           git diff --exit-code -- . ':!.github'
@@ -28,17 +29,16 @@ jobs:
   security-dependencies:
     runs-on: ubuntu-24.04
     timeout-minutes: 10
-    env:
-      SHARP_IGNORE_GLOBAL_LIBVIPS: '1'
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
+          fetch-depth: 0
           persist-credentials: false
       - name: Check runner Node.js
         run: node --version && node -e "const [a,b]=process.versions.node.split('.').map(Number); if(a<20 || (a===20 && b<9)) process.exit(1)"
-      - run: npm ci --prefix .github/tools --ignore-scripts
-      - name: Report and enforce native security floor
-        run: node .github/tools/check-native.mjs
+      - run: node .github/ci/check-dependencies.mjs --preflight
+      - run: npm ci --prefix .github/ci --ignore-scripts
+      - run: node .github/ci/check-dependencies.mjs
       - name: Audit all tool dependencies
         if: ${{ !cancelled() }}
-        run: npm audit --prefix .github/tools --audit-level=low
+        run: npm audit --prefix .github/ci --audit-level=low

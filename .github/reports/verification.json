@@ -6,12 +6,12 @@
   "checkedResourcePaths": 38,
   "nativeImageCount": 7,
   "inlineFlightImageCount": 5,
-  "codecVariantsVerified": 42,
+  "pinnedImageVariants": 42,
   "fullSizePngCardsUnchanged": true,
   "sceneGeometryCssUnchanged": true,
   "baselineCompatibilityUrlsRetained": true,
   "oldArtifactBytes": 20080732,
-  "newArtifactBytes": 28079389,
+  "newArtifactBytes": 28079372,
   "budgets": [
     {
       "viewport": 375,
@@ -228,5 +228,5 @@
     "report": "text-resize/summary.json",
     "note": "Browser checks are recorded separately from static verification; LCP / CLS / INP / Lighthouse remain unmeasured."
   },
-  "note": "Byte budgets follow srcset/sizes at the stated DPR; they are not measured browser transfers or LCP timings. Lossless matches the reference resized with Lanczos, not a browser screenshot."
+  "note": "Byte budgets follow srcset/sizes at the stated DPR; they are not measured browser transfers or LCP timings. No image decoding in CI; SHA-256 pins the previously verified codec output."
 }

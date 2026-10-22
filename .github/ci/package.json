@@ -1,0 +1,14 @@
+{
+  "name": "forma-static-ci",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "parse5": "8.0.0"
+  },
+  "scripts": {
+    "build": "node assemble.mjs",
+    "verify": "node verify.mjs",
+    "security": "node check-dependencies.mjs",
+    "negative": "node negative-tests.mjs"
+  }
+}
