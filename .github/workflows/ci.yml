@@ -1,0 +1,46 @@
+name: FORMA CI
+on:
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  static-integrity:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    env:
+      SHARP_IGNORE_GLOBAL_LIBVIPS: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '24.22.0'
+      - run: npm ci --prefix .github/tools --ignore-scripts
+      - run: npm run verify --prefix .github/tools
+      - run: npm run build --prefix .github/tools
+      - run: npm run verify --prefix .github/tools
+      - name: Require reproducible site output
+        run: |
+          git diff --exit-code -- . ':!.github'
+          test -z "$(git ls-files --others --exclude-standard -- . ':!.github')"
+  security-dependencies:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    env:
+      SHARP_IGNORE_GLOBAL_LIBVIPS: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '24.22.0'
+      - run: npm ci --prefix .github/tools --ignore-scripts
+      - name: Report and enforce native security floor
+        run: node .github/tools/check-native.mjs
+      - name: Audit all tool dependencies
+        if: ${{ !cancelled() }}
+        run: npm audit --prefix .github/tools --audit-level=low
