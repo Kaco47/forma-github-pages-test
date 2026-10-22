@@ -1,0 +1,58 @@
+name: FORMA CI
+on:
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  static-integrity:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Select runner Node.js 24
+        shell: bash
+        run: |
+          node_dir="$(find "$RUNNER_TOOL_CACHE/node" -mindepth 1 -maxdepth 1 -type d -name '24.*' | sort -V | tail -n 1)"
+          test -n "$node_dir"
+          test -x "$node_dir/x64/bin/node"
+          echo "$node_dir/x64/bin" >> "$GITHUB_PATH"
+      - name: Check Node.js version and required API
+        run: node .github/ci/check-node.mjs
+      - run: node .github/ci/check-dependencies.mjs --preflight
+      - run: npm ci --prefix .github/ci --ignore-scripts
+      - run: node .github/ci/check-dependencies.mjs
+      - run: node .github/ci/verify.mjs
+      - run: node .github/ci/assemble.mjs
+      - run: node .github/ci/verify.mjs
+      - run: node .github/ci/negative-tests.mjs
+      - name: Require reproducible site output
+        run: |
+          git diff --exit-code -- . ':!.github'
+          test -z "$(git ls-files --others --exclude-standard -- . ':!.github')"
+  security-dependencies:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Select runner Node.js 24
+        shell: bash
+        run: |
+          node_dir="$(find "$RUNNER_TOOL_CACHE/node" -mindepth 1 -maxdepth 1 -type d -name '24.*' | sort -V | tail -n 1)"
+          test -n "$node_dir"
+          test -x "$node_dir/x64/bin/node"
+          echo "$node_dir/x64/bin" >> "$GITHUB_PATH"
+      - name: Check Node.js version and required API
+        run: node .github/ci/check-node.mjs
+      - run: node .github/ci/check-dependencies.mjs --preflight
+      - run: npm ci --prefix .github/ci --ignore-scripts
+      - run: node .github/ci/check-dependencies.mjs
+      - name: Audit all tool dependencies
+        if: ${{ !cancelled() }}
+        run: npm audit --prefix .github/ci --audit-level=low

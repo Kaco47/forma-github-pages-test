@@ -1,0 +1,436 @@
+{
+  "base": "c123bedd0e67973ea9ace44747fb0e162fc62d0f",
+  "sharp": "0.35.5",
+  "renamed": [
+    {
+      "from": "_next/static/chunks/03p6cvmvy57p0.js",
+      "to": "_next/static/chunks/forma-v1_1-ceec7ac6259e.js"
+    },
+    {
+      "from": "_next/static/chunks/3vnxegmc6nkun.css",
+      "to": "_next/static/chunks/forma-v1_1-88de0e359858.css"
+    }
+  ],
+  "variants": [
+    {
+      "file": "media/v1.1/auto-240.webp",
+      "source": "hero/layers/auto.webp",
+      "width": 240,
+      "height": 320,
+      "format": "webp",
+      "bytes": 122656,
+      "maxVisibleDelta": 0,
+      "maxAlphaDelta": 0
+    },
+    {
+      "file": ".github/reports/avif-candidates/auto-240.avif",
+      "source": "hero/layers/auto.webp",
+      "width": 240,
+      "height": 320,
+      "format": "avif",
+      "bytes": 155939,
+      "maxVisibleDelta": 0,
+      "maxAlphaDelta": 0
+    },
+    {
+      "file": "media/v1.1/auto-360.webp",
+      "source": "hero/layers/auto.webp",
+      "width": 360,
+      "height": 480,
+      "format": "webp",
+      "bytes": 261024,
+      "maxVisibleDelta": 0,
+      "maxAlphaDelta": 0
+    },
+    {
+      "file": ".github/reports/avif-candidates/auto-360.avif",
+      "source": "hero/layers/auto.webp",
+      "width": 360,
+      "height": 480,
+      "format": "avif",
+      "bytes": 323394,
+      "maxVisibleDelta": 0,
+      "maxAlphaDelta": 0
+    },
+    {
+      "file": "media/v1.1/auto-480.webp",
+      "source": "hero/layers/auto.webp",
+      "width": 480,
+      "height": 640,
+      "format": "webp",
+      "bytes": 442564,
+      "maxVisibleDelta": 0,
+      "maxAlphaDelta": 0
+    },
+    {
+      "file": ".github/reports/avif-candidates/auto-480.avif",
+      "source": "hero/layers/auto.webp",
+      "width": 480,
+      "height": 640,
+      "format": "avif",
+      "bytes": 532718,
+      "maxVisibleDelta": 0,
+      "maxAlphaDelta": 0
+    },
+    {
+      "file": "media/v1.1/auto-720.webp",
+      "source": "hero/layers/auto.webp",
+      "width": 720,
+      "height": 960,
+      "format": "webp",
+      "bytes": 912994,
+      "maxVisibleDelta": 0,
+      "maxAlphaDelta": 0
+    },
+    {
+      "file": ".github/reports/avif-candidates/auto-720.avif",
+      "source": "hero/layers/auto.webp",
+      "width": 720,
+      "height": 960,
+      "format": "avif",
+      "bytes": 1082659,
+      "maxVisibleDelta": 0,
+      "maxAlphaDelta": 0
+    },
+    {
+      "file": "media/v1.1/power-240.webp",
+      "source": "hero/layers/power.webp",
+      "width": 240,
+      "height": 320,
+      "format": "webp",
+      "bytes": 93302,
+      "maxVisibleDelta": 0,
+      "maxAlphaDelta": 0
+    },
+    {
+      "file": ".github/reports/avif-candidates/power-240.avif",
+      "source": "hero/layers/power.webp",
+      "width": 240,
+      "height": 320,
+      "format": "avif",
+      "bytes": 123498,
+      "maxVisibleDelta": 0,
+      "maxAlphaDelta": 0
+    },
+    {
+      "file": "media/v1.1/power-360.webp",
+      "source": "hero/layers/power.webp",
+      "width": 360,
+      "height": 480,
+      "format": "webp",
+      "bytes": 192466,
+      "maxVisibleDelta": 0,
+      "maxAlphaDelta": 0
+    },
+    {
+      "file": ".github/reports/avif-candidates/power-360.avif",
+      "source": "hero/layers/power.webp",
+      "width": 360,
+      "height": 480,
+      "format": "avif",
+      "bytes": 243778,
+      "maxVisibleDelta": 0,
+      "maxAlphaDelta": 0
+    },
+    {
+      "file": "media/v1.1/power-480.webp",
+      "source": "hero/layers/power.webp",
+      "width": 480,
+      "height": 640,
+      "format": "webp",
+      "bytes": 314630,
+      "maxVisibleDelta": 0,
+      "maxAlphaDelta": 0
+    },
+    {
+      "file": ".github/reports/avif-candidates/power-480.avif",
+      "source": "hero/layers/power.webp",
+      "width": 480,
+      "height": 640,
+      "format": "avif",
+      "bytes": 386954,
+      "maxVisibleDelta": 0,
+      "maxAlphaDelta": 0
+    },
+    {
+      "file": "media/v1.1/power-720.webp",
+      "source": "hero/layers/power.webp",
+      "width": 720,
+      "height": 960,
+      "format": "webp",
+      "bytes": 623378,
+      "maxVisibleDelta": 0,
+      "maxAlphaDelta": 0
+    },
+    {
+      "file": ".github/reports/avif-candidates/power-720.avif",
+      "source": "hero/layers/power.webp",
+      "width": 720,
+      "height": 960,
+      "format": "avif",
+      "bytes": 769582,
+      "maxVisibleDelta": 0,
+      "maxAlphaDelta": 0
+    },
+    {
+      "file": "media/v1.1/tws-240.webp",
+      "source": "hero/layers/tws.webp",
+      "width": 240,
+      "height": 320,
+      "format": "webp",
+      "bytes": 87128,
+      "maxVisibleDelta": 0,
+      "maxAlphaDelta": 0
+    },
+    {
+      "file": ".github/reports/avif-candidates/tws-240.avif",
+      "source": "hero/layers/tws.webp",
+      "width": 240,
+      "height": 320,
+      "format": "avif",
+      "bytes": 115975,
+      "maxVisibleDelta": 0,
+      "maxAlphaDelta": 0
+    },
+    {
+      "file": "media/v1.1/tws-360.webp",
+      "source": "hero/layers/tws.webp",
+      "width": 360,
+      "height": 480,
+      "format": "webp",
+      "bytes": 185200,
+      "maxVisibleDelta": 0,
+      "maxAlphaDelta": 0
+    },
+    {
+      "file": ".github/reports/avif-candidates/tws-360.avif",
+      "source": "hero/layers/tws.webp",
+      "width": 360,
+      "height": 480,
+      "format": "avif",
+      "bytes": 236343,
+      "maxVisibleDelta": 0,
+      "maxAlphaDelta": 0
+    },
+    {
+      "file": "media/v1.1/tws-480.webp",
+      "source": "hero/layers/tws.webp",
+      "width": 480,
+      "height": 640,
+      "format": "webp",
+      "bytes": 313782,
+      "maxVisibleDelta": 0,
+      "maxAlphaDelta": 0
+    },
+    {
+      "file": ".github/reports/avif-candidates/tws-480.avif",
+      "source": "hero/layers/tws.webp",
+      "width": 480,
+      "height": 640,
+      "format": "avif",
+      "bytes": 381540,
+      "maxVisibleDelta": 0,
+      "maxAlphaDelta": 0
+    },
+    {
+      "file": "media/v1.1/tws-720.webp",
+      "source": "hero/layers/tws.webp",
+      "width": 720,
+      "height": 960,
+      "format": "webp",
+      "bytes": 648158,
+      "maxVisibleDelta": 0,
+      "maxAlphaDelta": 0
+    },
+    {
+      "file": ".github/reports/avif-candidates/tws-720.avif",
+      "source": "hero/layers/tws.webp",
+      "width": 720,
+      "height": 960,
+      "format": "avif",
+      "bytes": 799592,
+      "maxVisibleDelta": 0,
+      "maxAlphaDelta": 0
+    },
+    {
+      "file": "media/v1.1/tws-960.webp",
+      "source": "hero/layers/tws.webp",
+      "width": 960,
+      "height": 1280,
+      "format": "webp",
+      "bytes": 1084218,
+      "maxVisibleDelta": 0,
+      "maxAlphaDelta": 0
+    },
+    {
+      "file": ".github/reports/avif-candidates/tws-960.avif",
+      "source": "hero/layers/tws.webp",
+      "width": 960,
+      "height": 1280,
+      "format": "avif",
+      "bytes": 1284647,
+      "maxVisibleDelta": 0,
+      "maxAlphaDelta": 0
+    },
+    {
+      "file": "media/v1.1/logo-64.webp",
+      "source": "brand/forma-logo-transparent.png",
+      "width": 64,
+      "height": 63,
+      "format": "webp",
+      "bytes": 6758,
+      "maxVisibleDelta": 0,
+      "maxAlphaDelta": 0
+    },
+    {
+      "file": ".github/reports/avif-candidates/logo-64.avif",
+      "source": "brand/forma-logo-transparent.png",
+      "width": 64,
+      "height": 63,
+      "format": "avif",
+      "bytes": 9654,
+      "maxVisibleDelta": 0,
+      "maxAlphaDelta": 0
+    },
+    {
+      "file": "media/v1.1/logo-96.webp",
+      "source": "brand/forma-logo-transparent.png",
+      "width": 96,
+      "height": 95,
+      "format": "webp",
+      "bytes": 12260,
+      "maxVisibleDelta": 0,
+      "maxAlphaDelta": 0
+    },
+    {
+      "file": ".github/reports/avif-candidates/logo-96.avif",
+      "source": "brand/forma-logo-transparent.png",
+      "width": 96,
+      "height": 95,
+      "format": "avif",
+      "bytes": 16395,
+      "maxVisibleDelta": 0,
+      "maxAlphaDelta": 0
+    },
+    {
+      "file": "media/v1.1/logo-160.webp",
+      "source": "brand/forma-logo-transparent.png",
+      "width": 160,
+      "height": 158,
+      "format": "webp",
+      "bytes": 27606,
+      "maxVisibleDelta": 0,
+      "maxAlphaDelta": 0
+    },
+    {
+      "file": ".github/reports/avif-candidates/logo-160.avif",
+      "source": "brand/forma-logo-transparent.png",
+      "width": 160,
+      "height": 158,
+      "format": "avif",
+      "bytes": 34635,
+      "maxVisibleDelta": 0,
+      "maxAlphaDelta": 0
+    },
+    {
+      "file": "media/v1.1/logo-240.webp",
+      "source": "brand/forma-logo-transparent.png",
+      "width": 240,
+      "height": 237,
+      "format": "webp",
+      "bytes": 53692,
+      "maxVisibleDelta": 0,
+      "maxAlphaDelta": 0
+    },
+    {
+      "file": ".github/reports/avif-candidates/logo-240.avif",
+      "source": "brand/forma-logo-transparent.png",
+      "width": 240,
+      "height": 237,
+      "format": "avif",
+      "bytes": 67052,
+      "maxVisibleDelta": 0,
+      "maxAlphaDelta": 0
+    },
+    {
+      "file": "media/v1.1/logo-320.webp",
+      "source": "brand/forma-logo-transparent.png",
+      "width": 320,
+      "height": 316,
+      "format": "webp",
+      "bytes": 89550,
+      "maxVisibleDelta": 0,
+      "maxAlphaDelta": 0
+    },
+    {
+      "file": ".github/reports/avif-candidates/logo-320.avif",
+      "source": "brand/forma-logo-transparent.png",
+      "width": 320,
+      "height": 316,
+      "format": "avif",
+      "bytes": 109372,
+      "maxVisibleDelta": 0,
+      "maxAlphaDelta": 0
+    },
+    {
+      "file": "media/v1.1/logo-480.webp",
+      "source": "brand/forma-logo-transparent.png",
+      "width": 480,
+      "height": 473,
+      "format": "webp",
+      "bytes": 189878,
+      "maxVisibleDelta": 0,
+      "maxAlphaDelta": 0
+    },
+    {
+      "file": ".github/reports/avif-candidates/logo-480.avif",
+      "source": "brand/forma-logo-transparent.png",
+      "width": 480,
+      "height": 473,
+      "format": "avif",
+      "bytes": 221501,
+      "maxVisibleDelta": 0,
+      "maxAlphaDelta": 0
+    },
+    {
+      "file": "media/v1.1/rock-desktop-1672.webp",
+      "source": "hero/backgrounds/rock-background-desktop.png",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "bytes": 1757296,
+      "maxVisibleDelta": 0,
+      "maxAlphaDelta": 0
+    },
+    {
+      "file": ".github/reports/avif-candidates/rock-desktop-1672.avif",
+      "source": "hero/backgrounds/rock-background-desktop.png",
+      "width": 1672,
+      "height": 941,
+      "format": "avif",
+      "bytes": 1909077,
+      "maxVisibleDelta": 0,
+      "maxAlphaDelta": 0
+    },
+    {
+      "file": "media/v1.1/rock-mobile-417.webp",
+      "source": "hero/backgrounds/rock-background-mobile.png",
+      "width": 417,
+      "height": 817,
+      "format": "webp",
+      "bytes": 434980,
+      "maxVisibleDelta": 0,
+      "maxAlphaDelta": 0
+    },
+    {
+      "file": ".github/reports/avif-candidates/rock-mobile-417.avif",
+      "source": "hero/backgrounds/rock-background-mobile.png",
+      "width": 417,
+      "height": 817,
+      "format": "avif",
+      "bytes": 481955,
+      "maxVisibleDelta": 0,
+      "maxAlphaDelta": 0
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "engine": "Chromium 156, headless, DPR 1",
+  "textScaleMethod": "Double every computed HTML font-size; not browser page zoom",
+  "widths": [
+    375,
+    390,
+    768,
+    1440,
+    1920
+  ],
+  "checks": [
+    {
+      "width": 375,
+      "scale": 1,
+      "beforeScroll": 375,
+      "afterScroll": 375,
+      "focusSamples": 10,
+      "menu": "passed",
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "httpErrors": 0
+    },
+    {
+      "width": 375,
+      "scale": 2,
+      "beforeScroll": 640,
+      "afterScroll": 375,
+      "focusSamples": 10,
+      "menu": "passed",
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "httpErrors": 0
+    },
+    {
+      "width": 390,
+      "scale": 1,
+      "beforeScroll": 390,
+      "afterScroll": 390,
+      "focusSamples": 10,
+      "menu": "passed",
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "httpErrors": 0
+    },
+    {
+      "width": 390,
+      "scale": 2,
+      "beforeScroll": 640,
+      "afterScroll": 390,
+      "focusSamples": 10,
+      "menu": "passed",
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "httpErrors": 0
+    },
+    {
+      "width": 768,
+      "scale": 1,
+      "beforeScroll": 768,
+      "afterScroll": 768,
+      "focusSamples": 10,
+      "menu": "passed",
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "httpErrors": 0
+    },
+    {
+      "width": 768,
+      "scale": 2,
+      "beforeScroll": 768,
+      "afterScroll": 768,
+      "focusSamples": 10,
+      "menu": "passed",
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "httpErrors": 0
+    },
+    {
+      "width": 1440,
+      "scale": 1,
+      "beforeScroll": 1440,
+      "afterScroll": 1440,
+      "focusSamples": 10,
+      "menu": "desktop navigation",
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "httpErrors": 0
+    },
+    {
+      "width": 1440,
+      "scale": 2,
+      "beforeScroll": 1440,
+      "afterScroll": 1440,
+      "focusSamples": 10,
+      "menu": "desktop navigation",
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "httpErrors": 0
+    },
+    {
+      "width": 1920,
+      "scale": 1,
+      "beforeScroll": 1920,
+      "afterScroll": 1920,
+      "focusSamples": 10,
+      "menu": "desktop navigation",
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "httpErrors": 0
+    },
+    {
+      "width": 1920,
+      "scale": 2,
+      "beforeScroll": 1920,
+      "afterScroll": 1920,
+      "focusSamples": 10,
+      "menu": "desktop navigation",
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "httpErrors": 0
+    }
+  ],
+  "normalComparisons": [
+    {
+      "width": 375,
+      "viewportChangedPixels": 0
+    },
+    {
+      "width": 390,
+      "viewportChangedPixels": 0
+    },
+    {
+      "width": 768,
+      "viewportChangedPixels": 0
+    },
+    {
+      "width": 1440,
+      "viewportChangedPixels": 0
+    },
+    {
+      "width": 1920,
+      "viewportChangedPixels": 0
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "tracked_files_scanned": 94,
+  "findings": [],
+  "source_project_modified": false,
+  "runtime_dependencies_added": false,
+  "notes": "Known token/private-key patterns and file inventory scan. No credentials were used in build tools."
+}

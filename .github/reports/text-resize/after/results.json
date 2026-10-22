@@ -1,0 +1,2586 @@
+[
+  {
+    "width": 375,
+    "scale": 1,
+    "errors": [],
+    "failed": [],
+    "httpErrors": [],
+    "focus": [
+      {
+        "tag": "A",
+        "cls": "brand",
+        "label": "FORMA. — на главную",
+        "box": {
+          "x": 20,
+          "y": 21,
+          "width": 108.09375,
+          "height": 30,
+          "top": 21,
+          "right": 128.09375,
+          "bottom": 51,
+          "left": 20
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "header-contact header-telegram",
+        "label": "Написать FORMA. в Telegram (новая вкладка)",
+        "box": {
+          "x": 188.21875,
+          "y": 14,
+          "width": 44,
+          "height": 44,
+          "top": 14,
+          "right": 232.21875,
+          "bottom": 58,
+          "left": 188.21875
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "header-contact header-email",
+        "label": "Написать FORMA. на почту forma.cards.studio@yandex.ru",
+        "box": {
+          "x": 238.21875,
+          "y": 14,
+          "width": 44,
+          "height": 44,
+          "top": 14,
+          "right": 282.21875,
+          "bottom": 58,
+          "left": 238.21875
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "menu-toggle",
+        "label": "Открыть меню",
+        "box": {
+          "x": 292.21875,
+          "y": 14,
+          "width": 62.78125,
+          "height": 44,
+          "top": 14,
+          "right": 355,
+          "bottom": 58,
+          "left": 292.21875
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "button button-gold",
+        "label": "Обсудить проект в Telegram (новая вкладка)",
+        "box": {
+          "x": 20,
+          "y": 387.84375,
+          "width": 175.6875,
+          "height": 52,
+          "top": 387.84375,
+          "right": 195.6875,
+          "bottom": 439.84375,
+          "left": 20
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(220, 188, 127)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "text-link",
+        "label": "Смотреть дизайн-концепты ↗",
+        "box": {
+          "x": 20,
+          "y": 451.84375,
+          "width": 169.578125,
+          "height": 44,
+          "top": 451.84375,
+          "right": 189.578125,
+          "bottom": 495.84375,
+          "left": 20
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(220, 188, 127)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "product-card product-card-auto",
+        "label": "Hydro Foam: открыть оригинальную карточку в новой вкладке",
+        "box": {
+          "x": 11.931129455566406,
+          "y": 642.2097778320312,
+          "width": 127.87212371826172,
+          "height": 155.1429443359375,
+          "top": 642.2097778320312,
+          "right": 139.80325317382812,
+          "bottom": 797.3527221679688,
+          "left": 11.931129455566406
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(229, 199, 140)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "product-card product-card-power",
+        "label": "FORMA POWER: открыть оригинальную карточку в новой вкладке",
+        "box": {
+          "x": 236.33738708496094,
+          "y": 642.2097778320312,
+          "width": 127.87211608886719,
+          "height": 155.1429443359375,
+          "top": 642.2097778320312,
+          "right": 364.2095031738281,
+          "bottom": 797.3527221679688,
+          "left": 236.33738708496094
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(229, 199, 140)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "product-card product-card-tws",
+        "label": "TWS-наушники: открыть оригинальную карточку в новой вкладке",
+        "box": {
+          "x": 124.796875,
+          "y": 610.578125,
+          "width": 132,
+          "height": 176,
+          "top": 610.578125,
+          "right": 256.796875,
+          "bottom": 786.578125,
+          "left": 124.796875
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(229, 199, 140)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "text-link",
+        "label": "Обсудим ваш товар в Telegram (новая вкладка)",
+        "box": {
+          "x": 41,
+          "y": 440.234375,
+          "width": 129.265625,
+          "height": 45,
+          "top": 440.234375,
+          "right": 170.265625,
+          "bottom": 485.234375,
+          "left": 41
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      }
+    ],
+    "menu": {
+      "closedBox": {
+        "x": 292.21875,
+        "y": 14,
+        "width": 62.78125,
+        "height": 44
+      },
+      "afterEnter": "true",
+      "openBox": {
+        "x": 278.4375,
+        "y": 14,
+        "width": 76.5625,
+        "height": 44
+      },
+      "afterEscape": "false",
+      "focusAfterEscape": true,
+      "afterSpace": "true",
+      "afterLink": "false",
+      "hash": "#contacts"
+    },
+    "layout": {
+      "client": 375,
+      "scroll": 375,
+      "innerWidth": 375,
+      "contact": {
+        "x": 43,
+        "y": 3776.671875,
+        "width": 289,
+        "height": 112.828125,
+        "top": 3776.671875,
+        "right": 332,
+        "bottom": 3889.5,
+        "left": 43
+      },
+      "em": {
+        "x": 43,
+        "y": 3851.890625,
+        "width": 235.375,
+        "height": 37.609375,
+        "top": 3851.890625,
+        "right": 278.375,
+        "bottom": 3889.5,
+        "left": 43
+      },
+      "header": {
+        "x": 20,
+        "y": 0,
+        "width": 335,
+        "height": 72,
+        "top": 0,
+        "right": 355,
+        "bottom": 72,
+        "left": 20
+      },
+      "h1": {
+        "x": 20,
+        "y": 115,
+        "width": 335,
+        "height": 123.09375,
+        "top": 115,
+        "right": 355,
+        "bottom": 238.09375,
+        "left": 20
+      },
+      "overflow": []
+    },
+    "reverseFocus": "product-card product-card-tws"
+  },
+  {
+    "width": 375,
+    "scale": 2,
+    "errors": [],
+    "failed": [],
+    "httpErrors": [],
+    "focus": [
+      {
+        "tag": "A",
+        "cls": "brand",
+        "label": "FORMA. — на главную",
+        "box": {
+          "x": 20,
+          "y": 0,
+          "width": 179.171875,
+          "height": 60,
+          "top": 0,
+          "right": 199.171875,
+          "bottom": 60,
+          "left": 20
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "header-contact header-telegram",
+        "label": "Написать FORMA. в Telegram (новая вкладка)",
+        "box": {
+          "x": 261,
+          "y": 8,
+          "width": 44,
+          "height": 44,
+          "top": 8,
+          "right": 305,
+          "bottom": 52,
+          "left": 261
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "header-contact header-email",
+        "label": "Написать FORMA. на почту forma.cards.studio@yandex.ru",
+        "box": {
+          "x": 311,
+          "y": 8,
+          "width": 44,
+          "height": 44,
+          "top": 8,
+          "right": 355,
+          "bottom": 52,
+          "left": 311
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "menu-toggle",
+        "label": "Открыть меню",
+        "box": {
+          "x": 20,
+          "y": 70,
+          "width": 105.546875,
+          "height": 58,
+          "top": 70,
+          "right": 125.546875,
+          "bottom": 128,
+          "left": 20
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "button button-gold",
+        "label": "Обсудить проект в Telegram (новая вкладка)",
+        "box": {
+          "x": 20,
+          "y": 428.125,
+          "width": 277.375,
+          "height": 70,
+          "top": 428.125,
+          "right": 297.375,
+          "bottom": 498.125,
+          "left": 20
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(220, 188, 127)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "text-link",
+        "label": "Смотреть дизайн-концепты ↗",
+        "box": {
+          "x": 20,
+          "y": 510.125,
+          "width": 331.140625,
+          "height": 62,
+          "top": 510.125,
+          "right": 351.140625,
+          "bottom": 572.125,
+          "left": 20
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(220, 188, 127)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "product-card product-card-auto",
+        "label": "Hydro Foam: открыть оригинальную карточку в новой вкладке",
+        "box": {
+          "x": 11.931129455566406,
+          "y": 688.4754028320312,
+          "width": 127.87212371826172,
+          "height": 155.1429443359375,
+          "top": 688.4754028320312,
+          "right": 139.80325317382812,
+          "bottom": 843.6183471679688,
+          "left": 11.931129455566406
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(229, 199, 140)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "product-card product-card-power",
+        "label": "FORMA POWER: открыть оригинальную карточку в новой вкладке",
+        "box": {
+          "x": 236.33738708496094,
+          "y": 688.4754028320312,
+          "width": 127.87211608886719,
+          "height": 155.1429443359375,
+          "top": 688.4754028320312,
+          "right": 364.2095031738281,
+          "bottom": 843.6183471679688,
+          "left": 236.33738708496094
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(229, 199, 140)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "product-card product-card-tws",
+        "label": "TWS-наушники: открыть оригинальную карточку в новой вкладке",
+        "box": {
+          "x": 124.796875,
+          "y": 656.84375,
+          "width": 132,
+          "height": 176,
+          "top": 656.84375,
+          "right": 256.796875,
+          "bottom": 832.84375,
+          "left": 124.796875
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(229, 199, 140)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "text-link",
+        "label": "Обсудим ваш товар в Telegram (новая вкладка)",
+        "box": {
+          "x": 41,
+          "y": 431.546875,
+          "width": 248.5,
+          "height": 63,
+          "top": 431.546875,
+          "right": 289.5,
+          "bottom": 494.546875,
+          "left": 41
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      }
+    ],
+    "menu": {
+      "closedBox": {
+        "x": 20,
+        "y": 70,
+        "width": 105.546875,
+        "height": 58
+      },
+      "afterEnter": "true",
+      "openBox": {
+        "x": 20,
+        "y": 70,
+        "width": 133.125,
+        "height": 58
+      },
+      "afterEscape": "false",
+      "focusAfterEscape": true,
+      "afterSpace": "true",
+      "afterLink": "false",
+      "hash": "#contacts"
+    },
+    "layout": {
+      "client": 375,
+      "scroll": 375,
+      "innerWidth": 375,
+      "contact": {
+        "x": 43,
+        "y": 8494.40625,
+        "width": 289,
+        "height": 452.40625,
+        "top": 8494.40625,
+        "right": 332,
+        "bottom": 8946.8125,
+        "left": 43
+      },
+      "em": {
+        "x": 43,
+        "y": 8795.34375,
+        "width": 289,
+        "height": 150.46875,
+        "top": 8795.34375,
+        "right": 332,
+        "bottom": 8945.8125,
+        "left": 43
+      },
+      "header": {
+        "x": 20,
+        "y": 0,
+        "width": 335,
+        "height": 128,
+        "top": 0,
+        "right": 355,
+        "bottom": 128,
+        "left": 20
+      },
+      "h1": {
+        "x": 20,
+        "y": 171,
+        "width": 335,
+        "height": 410.390625,
+        "top": 171,
+        "right": 355,
+        "bottom": 581.390625,
+        "left": 20
+      },
+      "overflow": []
+    },
+    "reverseFocus": "product-card product-card-tws"
+  },
+  {
+    "width": 390,
+    "scale": 1,
+    "errors": [],
+    "failed": [],
+    "httpErrors": [],
+    "focus": [
+      {
+        "tag": "A",
+        "cls": "brand",
+        "label": "FORMA. — на главную",
+        "box": {
+          "x": 20,
+          "y": 21,
+          "width": 108.09375,
+          "height": 30,
+          "top": 21,
+          "right": 128.09375,
+          "bottom": 51,
+          "left": 20
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "header-contact header-telegram",
+        "label": "Написать FORMA. в Telegram (новая вкладка)",
+        "box": {
+          "x": 203.21875,
+          "y": 14,
+          "width": 44,
+          "height": 44,
+          "top": 14,
+          "right": 247.21875,
+          "bottom": 58,
+          "left": 203.21875
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "header-contact header-email",
+        "label": "Написать FORMA. на почту forma.cards.studio@yandex.ru",
+        "box": {
+          "x": 253.21875,
+          "y": 14,
+          "width": 44,
+          "height": 44,
+          "top": 14,
+          "right": 297.21875,
+          "bottom": 58,
+          "left": 253.21875
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "menu-toggle",
+        "label": "Открыть меню",
+        "box": {
+          "x": 307.21875,
+          "y": 14,
+          "width": 62.78125,
+          "height": 44,
+          "top": 14,
+          "right": 370,
+          "bottom": 58,
+          "left": 307.21875
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "button button-gold",
+        "label": "Обсудить проект в Telegram (новая вкладка)",
+        "box": {
+          "x": 20,
+          "y": 362.65625,
+          "width": 175.6875,
+          "height": 52,
+          "top": 362.65625,
+          "right": 195.6875,
+          "bottom": 414.65625,
+          "left": 20
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(220, 188, 127)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "text-link",
+        "label": "Смотреть дизайн-концепты ↗",
+        "box": {
+          "x": 20,
+          "y": 426.65625,
+          "width": 169.578125,
+          "height": 44,
+          "top": 426.65625,
+          "right": 189.578125,
+          "bottom": 470.65625,
+          "left": 20
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(220, 188, 127)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "product-card product-card-auto",
+        "label": "Hydro Foam: открыть оригинальную карточку в новой вкладке",
+        "box": {
+          "x": 12.39742374420166,
+          "y": 620.3198852539062,
+          "width": 132.97076416015625,
+          "height": 161.3289794921875,
+          "top": 620.3198852539062,
+          "right": 145.3681879043579,
+          "bottom": 781.6488647460938,
+          "left": 12.39742374420166
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(229, 199, 140)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "product-card product-card-power",
+        "label": "FORMA POWER: открыть оригинальную карточку в новой вкладке",
+        "box": {
+          "x": 245.77243041992188,
+          "y": 620.3198852539062,
+          "width": 132.97076416015625,
+          "height": 161.3289794921875,
+          "top": 620.3198852539062,
+          "right": 378.7431945800781,
+          "bottom": 781.6488647460938,
+          "left": 245.77243041992188
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(229, 199, 140)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "product-card product-card-tws",
+        "label": "TWS-наушники: открыть оригинальную карточку в новой вкладке",
+        "box": {
+          "x": 129.765625,
+          "y": 587.4375,
+          "width": 137.265625,
+          "height": 183.015625,
+          "top": 587.4375,
+          "right": 267.03125,
+          "bottom": 770.453125,
+          "left": 129.765625
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(229, 199, 140)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "text-link",
+        "label": "Обсудим ваш товар в Telegram (новая вкладка)",
+        "box": {
+          "x": 41,
+          "y": 440.765625,
+          "width": 129.265625,
+          "height": 45,
+          "top": 440.765625,
+          "right": 170.265625,
+          "bottom": 485.765625,
+          "left": 41
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      }
+    ],
+    "menu": {
+      "closedBox": {
+        "x": 307.21875,
+        "y": 14,
+        "width": 62.78125,
+        "height": 44
+      },
+      "afterEnter": "true",
+      "openBox": {
+        "x": 293.4375,
+        "y": 14,
+        "width": 76.5625,
+        "height": 44
+      },
+      "afterEscape": "false",
+      "focusAfterEscape": true,
+      "afterSpace": "true",
+      "afterLink": "false",
+      "hash": "#contacts"
+    },
+    "layout": {
+      "client": 390,
+      "scroll": 390,
+      "innerWidth": 390,
+      "contact": {
+        "x": 43,
+        "y": 3712.703125,
+        "width": 304,
+        "height": 112.828125,
+        "top": 3712.703125,
+        "right": 347,
+        "bottom": 3825.53125,
+        "left": 43
+      },
+      "em": {
+        "x": 43,
+        "y": 3787.921875,
+        "width": 235.375,
+        "height": 37.609375,
+        "top": 3787.921875,
+        "right": 278.375,
+        "bottom": 3825.53125,
+        "left": 43
+      },
+      "header": {
+        "x": 20,
+        "y": 0,
+        "width": 350,
+        "height": 72,
+        "top": 0,
+        "right": 370,
+        "bottom": 72,
+        "left": 20
+      },
+      "h1": {
+        "x": 20,
+        "y": 115,
+        "width": 350,
+        "height": 123.09375,
+        "top": 115,
+        "right": 370,
+        "bottom": 238.09375,
+        "left": 20
+      },
+      "overflow": []
+    },
+    "reverseFocus": "product-card product-card-tws"
+  },
+  {
+    "width": 390,
+    "scale": 2,
+    "errors": [],
+    "failed": [],
+    "httpErrors": [],
+    "focus": [
+      {
+        "tag": "A",
+        "cls": "brand",
+        "label": "FORMA. — на главную",
+        "box": {
+          "x": 20,
+          "y": 0,
+          "width": 179.171875,
+          "height": 60,
+          "top": 0,
+          "right": 199.171875,
+          "bottom": 60,
+          "left": 20
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "header-contact header-telegram",
+        "label": "Написать FORMA. в Telegram (новая вкладка)",
+        "box": {
+          "x": 276,
+          "y": 8,
+          "width": 44,
+          "height": 44,
+          "top": 8,
+          "right": 320,
+          "bottom": 52,
+          "left": 276
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "header-contact header-email",
+        "label": "Написать FORMA. на почту forma.cards.studio@yandex.ru",
+        "box": {
+          "x": 326,
+          "y": 8,
+          "width": 44,
+          "height": 44,
+          "top": 8,
+          "right": 370,
+          "bottom": 52,
+          "left": 326
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "menu-toggle",
+        "label": "Открыть меню",
+        "box": {
+          "x": 20,
+          "y": 70,
+          "width": 105.546875,
+          "height": 58,
+          "top": 70,
+          "right": 125.546875,
+          "bottom": 128,
+          "left": 20
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "button button-gold",
+        "label": "Обсудить проект в Telegram (новая вкладка)",
+        "box": {
+          "x": 20,
+          "y": 427.734375,
+          "width": 277.375,
+          "height": 70,
+          "top": 427.734375,
+          "right": 297.375,
+          "bottom": 497.734375,
+          "left": 20
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(220, 188, 127)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "text-link",
+        "label": "Смотреть дизайн-концепты ↗",
+        "box": {
+          "x": 20,
+          "y": 509.734375,
+          "width": 331.140625,
+          "height": 62,
+          "top": 509.734375,
+          "right": 351.140625,
+          "bottom": 571.734375,
+          "left": 20
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(220, 188, 127)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "product-card product-card-auto",
+        "label": "Hydro Foam: открыть оригинальную карточку в новой вкладке",
+        "box": {
+          "x": 12.39742374420166,
+          "y": 682.3823852539062,
+          "width": 132.97076416015625,
+          "height": 161.3289794921875,
+          "top": 682.3823852539062,
+          "right": 145.3681879043579,
+          "bottom": 843.7113647460938,
+          "left": 12.39742374420166
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(229, 199, 140)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "product-card product-card-power",
+        "label": "FORMA POWER: открыть оригинальную карточку в новой вкладке",
+        "box": {
+          "x": 245.77243041992188,
+          "y": 682.3823852539062,
+          "width": 132.97076416015625,
+          "height": 161.3289794921875,
+          "top": 682.3823852539062,
+          "right": 378.7431945800781,
+          "bottom": 843.7113647460938,
+          "left": 245.77243041992188
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(229, 199, 140)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "product-card product-card-tws",
+        "label": "TWS-наушники: открыть оригинальную карточку в новой вкладке",
+        "box": {
+          "x": 129.765625,
+          "y": 649.5,
+          "width": 137.265625,
+          "height": 183.015625,
+          "top": 649.5,
+          "right": 267.03125,
+          "bottom": 832.515625,
+          "left": 129.765625
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(229, 199, 140)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "text-link",
+        "label": "Обсудим ваш товар в Telegram (новая вкладка)",
+        "box": {
+          "x": 41,
+          "y": 431.703125,
+          "width": 248.5,
+          "height": 63,
+          "top": 431.703125,
+          "right": 289.5,
+          "bottom": 494.703125,
+          "left": 41
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      }
+    ],
+    "menu": {
+      "closedBox": {
+        "x": 20,
+        "y": 70,
+        "width": 105.546875,
+        "height": 58
+      },
+      "afterEnter": "true",
+      "openBox": {
+        "x": 20,
+        "y": 70,
+        "width": 133.125,
+        "height": 58
+      },
+      "afterEscape": "false",
+      "focusAfterEscape": true,
+      "afterSpace": "true",
+      "afterLink": "false",
+      "hash": "#contacts"
+    },
+    "layout": {
+      "client": 390,
+      "scroll": 390,
+      "innerWidth": 390,
+      "contact": {
+        "x": 43,
+        "y": 8191.0625,
+        "width": 304,
+        "height": 452.40625,
+        "top": 8191.0625,
+        "right": 347,
+        "bottom": 8643.46875,
+        "left": 43
+      },
+      "em": {
+        "x": 43,
+        "y": 8492,
+        "width": 304,
+        "height": 150.46875,
+        "top": 8492,
+        "right": 347,
+        "bottom": 8642.46875,
+        "left": 43
+      },
+      "header": {
+        "x": 20,
+        "y": 0,
+        "width": 350,
+        "height": 128,
+        "top": 0,
+        "right": 370,
+        "bottom": 128,
+        "left": 20
+      },
+      "h1": {
+        "x": 20,
+        "y": 171,
+        "width": 350,
+        "height": 410.390625,
+        "top": 171,
+        "right": 370,
+        "bottom": 581.390625,
+        "left": 20
+      },
+      "overflow": []
+    },
+    "reverseFocus": "product-card product-card-tws"
+  },
+  {
+    "width": 768,
+    "scale": 1,
+    "errors": [],
+    "failed": [],
+    "httpErrors": [],
+    "focus": [
+      {
+        "tag": "A",
+        "cls": "brand",
+        "label": "FORMA. — на главную",
+        "box": {
+          "x": 24,
+          "y": 24.5,
+          "width": 119.203125,
+          "height": 33,
+          "top": 24.5,
+          "right": 143.203125,
+          "bottom": 57.5,
+          "left": 24
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "header-contact header-telegram",
+        "label": "Написать FORMA. в Telegram (новая вкладка)",
+        "box": {
+          "x": 469.84375,
+          "y": 19,
+          "width": 100.359375,
+          "height": 44,
+          "top": 19,
+          "right": 570.203125,
+          "bottom": 63,
+          "left": 469.84375
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "header-contact header-email",
+        "label": "Написать FORMA. на почту forma.cards.studio@yandex.ru",
+        "box": {
+          "x": 578.203125,
+          "y": 19,
+          "width": 81.015625,
+          "height": 44,
+          "top": 19,
+          "right": 659.21875,
+          "bottom": 63,
+          "left": 578.203125
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "menu-toggle",
+        "label": "Открыть меню",
+        "box": {
+          "x": 675.21875,
+          "y": 19,
+          "width": 68.78125,
+          "height": 44,
+          "top": 19,
+          "right": 744,
+          "bottom": 63,
+          "left": 675.21875
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "button button-gold",
+        "label": "Обсудить проект в Telegram (новая вкладка)",
+        "box": {
+          "x": 74,
+          "y": 448.328125,
+          "width": 183.6875,
+          "height": 54,
+          "top": 448.328125,
+          "right": 257.6875,
+          "bottom": 502.328125,
+          "left": 74
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(220, 188, 127)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "text-link",
+        "label": "Смотреть дизайн-концепты ↗",
+        "box": {
+          "x": 281.6875,
+          "y": 451.328125,
+          "width": 169.578125,
+          "height": 48,
+          "top": 451.328125,
+          "right": 451.265625,
+          "bottom": 499.328125,
+          "left": 281.6875
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(220, 188, 127)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "product-card product-card-auto",
+        "label": "Hydro Foam: открыть оригинальную карточку в новой вкладке",
+        "box": {
+          "x": 36.69314193725586,
+          "y": 689.7640380859375,
+          "width": 252.94183349609375,
+          "height": 306.878173828125,
+          "top": 689.7640380859375,
+          "right": 289.6349754333496,
+          "bottom": 996.6422119140625,
+          "left": 36.69314193725586
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(229, 199, 140)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "product-card product-card-power",
+        "label": "FORMA POWER: открыть оригинальную карточку в новой вкладке",
+        "box": {
+          "x": 480.5993957519531,
+          "y": 689.7640380859375,
+          "width": 252.94186401367188,
+          "height": 306.878173828125,
+          "top": 689.7640380859375,
+          "right": 733.541259765625,
+          "bottom": 996.6422119140625,
+          "left": 480.5993957519531
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(229, 199, 140)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "product-card product-card-tws",
+        "label": "TWS-наушники: открыть оригинальную карточку в новой вкладке",
+        "box": {
+          "x": 259.953125,
+          "y": 635.0625,
+          "width": 261.109375,
+          "height": 348.140625,
+          "top": 635.0625,
+          "right": 521.0625,
+          "bottom": 983.203125,
+          "left": 259.953125
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(229, 199, 140)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "text-link",
+        "label": "Обсудим ваш товар в Telegram (новая вкладка)",
+        "box": {
+          "x": 586,
+          "y": 526.421875,
+          "width": 135,
+          "height": 63,
+          "top": 526.421875,
+          "right": 721,
+          "bottom": 589.421875,
+          "left": 586
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      }
+    ],
+    "menu": {
+      "closedBox": {
+        "x": 675.21875,
+        "y": 19,
+        "width": 68.78125,
+        "height": 44
+      },
+      "afterEnter": "true",
+      "openBox": {
+        "x": 661.4375,
+        "y": 19,
+        "width": 82.5625,
+        "height": 44
+      },
+      "afterEscape": "false",
+      "focusAfterEscape": true,
+      "afterSpace": "true",
+      "afterLink": "false",
+      "hash": "#contacts"
+    },
+    "layout": {
+      "client": 768,
+      "scroll": 768,
+      "innerWidth": 768,
+      "contact": {
+        "x": 53,
+        "y": 3010.609375,
+        "width": 377,
+        "height": 68.375,
+        "top": 3010.609375,
+        "right": 430,
+        "bottom": 3078.984375,
+        "left": 53
+      },
+      "em": {
+        "x": 53,
+        "y": 3043.796875,
+        "width": 213.96875,
+        "height": 35,
+        "top": 3043.796875,
+        "right": 266.96875,
+        "bottom": 3078.796875,
+        "left": 53
+      },
+      "header": {
+        "x": 24,
+        "y": 0,
+        "width": 720,
+        "height": 82,
+        "top": 0,
+        "right": 744,
+        "bottom": 82,
+        "left": 24
+      },
+      "h1": {
+        "x": 74,
+        "y": 131,
+        "width": 620,
+        "height": 178.078125,
+        "top": 131,
+        "right": 694,
+        "bottom": 309.078125,
+        "left": 74
+      },
+      "overflow": []
+    },
+    "reverseFocus": "product-card product-card-tws"
+  },
+  {
+    "width": 768,
+    "scale": 2,
+    "errors": [],
+    "failed": [],
+    "httpErrors": [],
+    "focus": [
+      {
+        "tag": "A",
+        "cls": "brand",
+        "label": "FORMA. — на главную",
+        "box": {
+          "x": 24,
+          "y": 8,
+          "width": 197.390625,
+          "height": 66,
+          "top": 8,
+          "right": 221.390625,
+          "bottom": 74,
+          "left": 24
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "header-contact header-telegram",
+        "label": "Написать FORMA. в Telegram (новая вкладка)",
+        "box": {
+          "x": 347.71875,
+          "y": 12,
+          "width": 149.71875,
+          "height": 58,
+          "top": 12,
+          "right": 497.4375,
+          "bottom": 70,
+          "left": 347.71875
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "header-contact header-email",
+        "label": "Написать FORMA. на почту forma.cards.studio@yandex.ru",
+        "box": {
+          "x": 505.4375,
+          "y": 12,
+          "width": 111.015625,
+          "height": 58,
+          "top": 12,
+          "right": 616.453125,
+          "bottom": 70,
+          "left": 505.4375
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "cls": "menu-toggle",
+        "label": "Открыть меню",
+        "box": {
+          "x": 632.453125,
+          "y": 10,
+          "width": 111.546875,
+          "height": 62,
+          "top": 10,
+          "right": 744,
+          "bottom": 72,
+          "left": 632.453125
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "button button-gold",
+        "label": "Обсудить проект в Telegram (новая вкладка)",
+        "box": {
+          "x": 74,
+          "y": 521.59375,
+          "width": 285.375,
+          "height": 72,
+          "top": 521.59375,
+          "right": 359.375,
+          "bottom": 593.59375,
+          "left": 74
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(220, 188, 127)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "text-link",
+        "label": "Смотреть дизайн-концепты ↗",
+        "box": {
+          "x": 74,
+          "y": 617.59375,
+          "width": 331.140625,
+          "height": 62,
+          "top": 617.59375,
+          "right": 405.140625,
+          "bottom": 679.59375,
+          "left": 74
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(220, 188, 127)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "product-card product-card-auto",
+        "label": "Hydro Foam: открыть оригинальную карточку в новой вкладке",
+        "box": {
+          "x": 36.69314193725586,
+          "y": 716.8265380859375,
+          "width": 252.94183349609375,
+          "height": 306.878173828125,
+          "top": 716.8265380859375,
+          "right": 289.6349754333496,
+          "bottom": 1023.7047119140625,
+          "left": 36.69314193725586
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(229, 199, 140)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "product-card product-card-power",
+        "label": "FORMA POWER: открыть оригинальную карточку в новой вкладке",
+        "box": {
+          "x": 480.5993957519531,
+          "y": 716.8265380859375,
+          "width": 252.94186401367188,
+          "height": 306.878173828125,
+          "top": 716.8265380859375,
+          "right": 733.541259765625,
+          "bottom": 1023.7047119140625,
+          "left": 480.5993957519531
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(229, 199, 140)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "product-card product-card-tws",
+        "label": "TWS-наушники: открыть оригинальную карточку в новой вкладке",
+        "box": {
+          "x": 259.953125,
+          "y": 662.125,
+          "width": 261.109375,
+          "height": 348.140625,
+          "top": 662.125,
+          "right": 521.0625,
+          "bottom": 1010.265625,
+          "left": 259.953125
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(229, 199, 140)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "text-link",
+        "label": "Обсудим ваш товар в Telegram (новая вкладка)",
+        "box": {
+          "x": 586,
+          "y": 490.484375,
+          "width": 135,
+          "height": 135,
+          "top": 490.484375,
+          "right": 721,
+          "bottom": 625.484375,
+          "left": 586
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      }
+    ],
+    "menu": {
+      "closedBox": {
+        "x": 632.453125,
+        "y": 10,
+        "width": 111.546875,
+        "height": 62
+      },
+      "afterEnter": "true",
+      "openBox": {
+        "x": 604.875,
+        "y": 10,
+        "width": 139.125,
+        "height": 62
+      },
+      "afterEscape": "false",
+      "focusAfterEscape": true,
+      "afterSpace": "true",
+      "afterLink": "false",
+      "hash": "#contacts"
+    },
+    "layout": {
+      "client": 768,
+      "scroll": 768,
+      "innerWidth": 768,
+      "contact": {
+        "x": 53,
+        "y": 5741.03125,
+        "width": 377,
+        "height": 275.5625,
+        "top": 5741.03125,
+        "right": 430,
+        "bottom": 6016.59375,
+        "left": 53
+      },
+      "em": {
+        "x": 53,
+        "y": 5877.8125,
+        "width": 212.15625,
+        "height": 137.390625,
+        "top": 5877.8125,
+        "right": 265.15625,
+        "bottom": 6015.203125,
+        "left": 53
+      },
+      "header": {
+        "x": 24,
+        "y": 0,
+        "width": 720,
+        "height": 82,
+        "top": 0,
+        "right": 744,
+        "bottom": 82,
+        "left": 24
+      },
+      "h1": {
+        "x": 74,
+        "y": 131,
+        "width": 620,
+        "height": 593.59375,
+        "top": 131,
+        "right": 694,
+        "bottom": 724.59375,
+        "left": 74
+      },
+      "overflow": []
+    },
+    "reverseFocus": "product-card product-card-tws"
+  },
+  {
+    "width": 1440,
+    "scale": 1,
+    "errors": [],
+    "failed": [],
+    "httpErrors": [],
+    "focus": [
+      {
+        "tag": "A",
+        "cls": "brand",
+        "label": "FORMA. — на главную",
+        "box": {
+          "x": 60,
+          "y": 24.5,
+          "width": 119.203125,
+          "height": 33,
+          "top": 24.5,
+          "right": 179.203125,
+          "bottom": 57.5,
+          "left": 60
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "label": "Главная",
+        "box": {
+          "x": 508.609375,
+          "y": 32,
+          "width": 45.6875,
+          "height": 18,
+          "top": 32,
+          "right": 554.296875,
+          "bottom": 50,
+          "left": 508.609375
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "label": "Портфолио",
+        "box": {
+          "x": 580.296875,
+          "y": 32,
+          "width": 63.875,
+          "height": 18,
+          "top": 32,
+          "right": 644.171875,
+          "bottom": 50,
+          "left": 580.296875
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "label": "Услуги",
+        "box": {
+          "x": 670.171875,
+          "y": 32,
+          "width": 36.90625,
+          "height": 18,
+          "top": 32,
+          "right": 707.078125,
+          "bottom": 50,
+          "left": 670.171875
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "label": "О студии",
+        "box": {
+          "x": 733.078125,
+          "y": 32,
+          "width": 50.3125,
+          "height": 18,
+          "top": 32,
+          "right": 783.390625,
+          "bottom": 50,
+          "left": 733.078125
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "label": "Контакты",
+        "box": {
+          "x": 809.390625,
+          "y": 32,
+          "width": 51.84375,
+          "height": 18,
+          "top": 32,
+          "right": 861.234375,
+          "bottom": 50,
+          "left": 809.390625
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "header-contact header-telegram",
+        "label": "Написать FORMA. в Telegram (новая вкладка)",
+        "box": {
+          "x": 1190.625,
+          "y": 19,
+          "width": 100.359375,
+          "height": 44,
+          "top": 19,
+          "right": 1290.984375,
+          "bottom": 63,
+          "left": 1190.625
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "header-contact header-email",
+        "label": "Написать FORMA. на почту forma.cards.studio@yandex.ru",
+        "box": {
+          "x": 1298.984375,
+          "y": 19,
+          "width": 81.015625,
+          "height": 44,
+          "top": 19,
+          "right": 1380,
+          "bottom": 63,
+          "left": 1298.984375
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "button button-gold",
+        "label": "Обсудить проект в Telegram (новая вкладка)",
+        "box": {
+          "x": 48,
+          "y": 479.421875,
+          "width": 192.171875,
+          "height": 55.5,
+          "top": 479.421875,
+          "right": 240.171875,
+          "bottom": 534.921875,
+          "left": 48
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(220, 188, 127)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "text-link",
+        "label": "Смотреть дизайн-концепты ↗",
+        "box": {
+          "x": 264.171875,
+          "y": 483.171875,
+          "width": 193.03125,
+          "height": 48,
+          "top": 483.171875,
+          "right": 457.203125,
+          "bottom": 531.171875,
+          "left": 264.171875
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(220, 188, 127)",
+        "focusVisible": true
+      }
+    ],
+    "menu": null,
+    "layout": {
+      "client": 1440,
+      "scroll": 1440,
+      "innerWidth": 1440,
+      "contact": {
+        "x": 161,
+        "y": 2391.90625,
+        "width": 425.390625,
+        "height": 93.46875,
+        "top": 2391.90625,
+        "right": 586.390625,
+        "bottom": 2485.375,
+        "left": 161
+      },
+      "em": {
+        "x": 161,
+        "y": 2437.640625,
+        "width": 292.421875,
+        "height": 47,
+        "top": 2437.640625,
+        "right": 453.421875,
+        "bottom": 2484.640625,
+        "left": 161
+      },
+      "header": {
+        "x": 60,
+        "y": 0,
+        "width": 1320,
+        "height": 82,
+        "top": 0,
+        "right": 1380,
+        "bottom": 82,
+        "left": 60
+      },
+      "h1": {
+        "x": 48,
+        "y": 141,
+        "width": 569.3125,
+        "height": 199.171875,
+        "top": 141,
+        "right": 617.3125,
+        "bottom": 340.171875,
+        "left": 48
+      },
+      "overflow": []
+    },
+    "reverseFocus": "button button-gold"
+  },
+  {
+    "width": 1440,
+    "scale": 2,
+    "errors": [],
+    "failed": [],
+    "httpErrors": [],
+    "focus": [
+      {
+        "tag": "A",
+        "cls": "brand",
+        "label": "FORMA. — на главную",
+        "box": {
+          "x": 60,
+          "y": 8,
+          "width": 197.390625,
+          "height": 66,
+          "top": 8,
+          "right": 257.390625,
+          "bottom": 74,
+          "left": 60
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "label": "Главная",
+        "box": {
+          "x": 383.734375,
+          "y": 23,
+          "width": 91.359375,
+          "height": 36,
+          "top": 23,
+          "right": 475.09375,
+          "bottom": 59,
+          "left": 383.734375
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "label": "Портфолио",
+        "box": {
+          "x": 501.09375,
+          "y": 23,
+          "width": 127.734375,
+          "height": 36,
+          "top": 23,
+          "right": 628.828125,
+          "bottom": 59,
+          "left": 501.09375
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "label": "Услуги",
+        "box": {
+          "x": 654.828125,
+          "y": 23,
+          "width": 73.8125,
+          "height": 36,
+          "top": 23,
+          "right": 728.640625,
+          "bottom": 59,
+          "left": 654.828125
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "label": "О студии",
+        "box": {
+          "x": 754.640625,
+          "y": 23,
+          "width": 100.625,
+          "height": 36,
+          "top": 23,
+          "right": 855.265625,
+          "bottom": 59,
+          "left": 754.640625
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "label": "Контакты",
+        "box": {
+          "x": 881.265625,
+          "y": 23,
+          "width": 103.671875,
+          "height": 36,
+          "top": 23,
+          "right": 984.9375,
+          "bottom": 59,
+          "left": 881.265625
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "header-contact header-telegram",
+        "label": "Написать FORMA. в Telegram (новая вкладка)",
+        "box": {
+          "x": 1111.265625,
+          "y": 12,
+          "width": 149.71875,
+          "height": 58,
+          "top": 12,
+          "right": 1260.984375,
+          "bottom": 70,
+          "left": 1111.265625
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "header-contact header-email",
+        "label": "Написать FORMA. на почту forma.cards.studio@yandex.ru",
+        "box": {
+          "x": 1268.984375,
+          "y": 12,
+          "width": 111.015625,
+          "height": 58,
+          "top": 12,
+          "right": 1380,
+          "bottom": 70,
+          "left": 1268.984375
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "button button-gold",
+        "label": "Обсудить проект в Telegram (новая вкладка)",
+        "box": {
+          "x": 48,
+          "y": 548.984375,
+          "width": 302.328125,
+          "height": 75,
+          "top": 548.984375,
+          "right": 350.328125,
+          "bottom": 623.984375,
+          "left": 48
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(220, 188, 127)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "text-link",
+        "label": "Смотреть дизайн-концепты ↗",
+        "box": {
+          "x": 48,
+          "y": 647.984375,
+          "width": 368.0625,
+          "height": 65,
+          "top": 647.984375,
+          "right": 416.0625,
+          "bottom": 712.984375,
+          "left": 48
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(220, 188, 127)",
+        "focusVisible": true
+      }
+    ],
+    "menu": null,
+    "layout": {
+      "client": 1440,
+      "scroll": 1440,
+      "innerWidth": 1440,
+      "contact": {
+        "x": 161,
+        "y": 4347.671875,
+        "width": 793,
+        "height": 280.40625,
+        "top": 4347.671875,
+        "right": 954,
+        "bottom": 4628.078125,
+        "left": 161
+      },
+      "em": {
+        "x": 161,
+        "y": 4534.609375,
+        "width": 584.84375,
+        "height": 93,
+        "top": 4534.609375,
+        "right": 745.84375,
+        "bottom": 4627.609375,
+        "left": 161
+      },
+      "header": {
+        "x": 60,
+        "y": 0,
+        "width": 1320,
+        "height": 82,
+        "top": 0,
+        "right": 1380,
+        "bottom": 82,
+        "left": 60
+      },
+      "h1": {
+        "x": 48,
+        "y": 141,
+        "width": 569.3125,
+        "height": 663.984375,
+        "top": 141,
+        "right": 617.3125,
+        "bottom": 804.984375,
+        "left": 48
+      },
+      "overflow": []
+    },
+    "reverseFocus": "button button-gold"
+  },
+  {
+    "width": 1920,
+    "scale": 1,
+    "errors": [],
+    "failed": [],
+    "httpErrors": [],
+    "focus": [
+      {
+        "tag": "A",
+        "cls": "brand",
+        "label": "FORMA. — на главную",
+        "box": {
+          "x": 300,
+          "y": 24.5,
+          "width": 119.203125,
+          "height": 33,
+          "top": 24.5,
+          "right": 419.203125,
+          "bottom": 57.5,
+          "left": 300
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "label": "Главная",
+        "box": {
+          "x": 748.609375,
+          "y": 32,
+          "width": 45.6875,
+          "height": 18,
+          "top": 32,
+          "right": 794.296875,
+          "bottom": 50,
+          "left": 748.609375
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "label": "Портфолио",
+        "box": {
+          "x": 820.296875,
+          "y": 32,
+          "width": 63.875,
+          "height": 18,
+          "top": 32,
+          "right": 884.171875,
+          "bottom": 50,
+          "left": 820.296875
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "label": "Услуги",
+        "box": {
+          "x": 910.171875,
+          "y": 32,
+          "width": 36.90625,
+          "height": 18,
+          "top": 32,
+          "right": 947.078125,
+          "bottom": 50,
+          "left": 910.171875
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "label": "О студии",
+        "box": {
+          "x": 973.078125,
+          "y": 32,
+          "width": 50.3125,
+          "height": 18,
+          "top": 32,
+          "right": 1023.390625,
+          "bottom": 50,
+          "left": 973.078125
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "label": "Контакты",
+        "box": {
+          "x": 1049.390625,
+          "y": 32,
+          "width": 51.84375,
+          "height": 18,
+          "top": 32,
+          "right": 1101.234375,
+          "bottom": 50,
+          "left": 1049.390625
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "header-contact header-telegram",
+        "label": "Написать FORMA. в Telegram (новая вкладка)",
+        "box": {
+          "x": 1430.625,
+          "y": 19,
+          "width": 100.359375,
+          "height": 44,
+          "top": 19,
+          "right": 1530.984375,
+          "bottom": 63,
+          "left": 1430.625
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "header-contact header-email",
+        "label": "Написать FORMA. на почту forma.cards.studio@yandex.ru",
+        "box": {
+          "x": 1538.984375,
+          "y": 19,
+          "width": 81.015625,
+          "height": 44,
+          "top": 19,
+          "right": 1620,
+          "bottom": 63,
+          "left": 1538.984375
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "button button-gold",
+        "label": "Обсудить проект в Telegram (новая вкладка)",
+        "box": {
+          "x": 260,
+          "y": 508.8125,
+          "width": 192.171875,
+          "height": 55.5,
+          "top": 508.8125,
+          "right": 452.171875,
+          "bottom": 564.3125,
+          "left": 260
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(220, 188, 127)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "text-link",
+        "label": "Смотреть дизайн-концепты ↗",
+        "box": {
+          "x": 476.171875,
+          "y": 512.5625,
+          "width": 193.03125,
+          "height": 48,
+          "top": 512.5625,
+          "right": 669.203125,
+          "bottom": 560.5625,
+          "left": 476.171875
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(220, 188, 127)",
+        "focusVisible": true
+      }
+    ],
+    "menu": null,
+    "layout": {
+      "client": 1920,
+      "scroll": 1920,
+      "innerWidth": 1920,
+      "contact": {
+        "x": 401,
+        "y": 2421.296875,
+        "width": 425.390625,
+        "height": 93.46875,
+        "top": 2421.296875,
+        "right": 826.390625,
+        "bottom": 2514.765625,
+        "left": 401
+      },
+      "em": {
+        "x": 401,
+        "y": 2467.03125,
+        "width": 292.421875,
+        "height": 47,
+        "top": 2467.03125,
+        "right": 693.421875,
+        "bottom": 2514.03125,
+        "left": 401
+      },
+      "header": {
+        "x": 300,
+        "y": 0,
+        "width": 1320,
+        "height": 82,
+        "top": 0,
+        "right": 1620,
+        "bottom": 82,
+        "left": 300
+      },
+      "h1": {
+        "x": 260,
+        "y": 147,
+        "width": 591.671875,
+        "height": 222.5625,
+        "top": 147,
+        "right": 851.671875,
+        "bottom": 369.5625,
+        "left": 260
+      },
+      "overflow": []
+    },
+    "reverseFocus": "button button-gold"
+  },
+  {
+    "width": 1920,
+    "scale": 2,
+    "errors": [],
+    "failed": [],
+    "httpErrors": [],
+    "focus": [
+      {
+        "tag": "A",
+        "cls": "brand",
+        "label": "FORMA. — на главную",
+        "box": {
+          "x": 300,
+          "y": 8,
+          "width": 197.390625,
+          "height": 66,
+          "top": 8,
+          "right": 497.390625,
+          "bottom": 74,
+          "left": 300
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "label": "Главная",
+        "box": {
+          "x": 623.734375,
+          "y": 23,
+          "width": 91.359375,
+          "height": 36,
+          "top": 23,
+          "right": 715.09375,
+          "bottom": 59,
+          "left": 623.734375
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "label": "Портфолио",
+        "box": {
+          "x": 741.09375,
+          "y": 23,
+          "width": 127.734375,
+          "height": 36,
+          "top": 23,
+          "right": 868.828125,
+          "bottom": 59,
+          "left": 741.09375
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "label": "Услуги",
+        "box": {
+          "x": 894.828125,
+          "y": 23,
+          "width": 73.8125,
+          "height": 36,
+          "top": 23,
+          "right": 968.640625,
+          "bottom": 59,
+          "left": 894.828125
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "label": "О студии",
+        "box": {
+          "x": 994.640625,
+          "y": 23,
+          "width": 100.625,
+          "height": 36,
+          "top": 23,
+          "right": 1095.265625,
+          "bottom": 59,
+          "left": 994.640625
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "label": "Контакты",
+        "box": {
+          "x": 1121.265625,
+          "y": 23,
+          "width": 103.671875,
+          "height": 36,
+          "top": 23,
+          "right": 1224.9375,
+          "bottom": 59,
+          "left": 1121.265625
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "header-contact header-telegram",
+        "label": "Написать FORMA. в Telegram (новая вкладка)",
+        "box": {
+          "x": 1351.265625,
+          "y": 12,
+          "width": 149.71875,
+          "height": 58,
+          "top": 12,
+          "right": 1500.984375,
+          "bottom": 70,
+          "left": 1351.265625
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "header-contact header-email",
+        "label": "Написать FORMA. на почту forma.cards.studio@yandex.ru",
+        "box": {
+          "x": 1508.984375,
+          "y": 12,
+          "width": 111.015625,
+          "height": 58,
+          "top": 12,
+          "right": 1620,
+          "bottom": 70,
+          "left": 1508.984375
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(213, 175, 103)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "button button-gold",
+        "label": "Обсудить проект в Telegram (новая вкладка)",
+        "box": {
+          "x": 260,
+          "y": 548.953125,
+          "width": 302.328125,
+          "height": 75,
+          "top": 548.953125,
+          "right": 562.328125,
+          "bottom": 623.953125,
+          "left": 260
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(220, 188, 127)",
+        "focusVisible": true
+      },
+      {
+        "tag": "A",
+        "cls": "text-link",
+        "label": "Смотреть дизайн-концепты ↗",
+        "box": {
+          "x": 260,
+          "y": 647.953125,
+          "width": 368.0625,
+          "height": 65,
+          "top": 647.953125,
+          "right": 628.0625,
+          "bottom": 712.953125,
+          "left": 260
+        },
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "outlineColor": "rgb(220, 188, 127)",
+        "focusVisible": true
+      }
+    ],
+    "menu": null,
+    "layout": {
+      "client": 1920,
+      "scroll": 1920,
+      "innerWidth": 1920,
+      "contact": {
+        "x": 401,
+        "y": 4431.640625,
+        "width": 793,
+        "height": 280.40625,
+        "top": 4431.640625,
+        "right": 1194,
+        "bottom": 4712.046875,
+        "left": 401
+      },
+      "em": {
+        "x": 401,
+        "y": 4618.578125,
+        "width": 584.84375,
+        "height": 93,
+        "top": 4618.578125,
+        "right": 985.84375,
+        "bottom": 4711.578125,
+        "left": 401
+      },
+      "header": {
+        "x": 300,
+        "y": 0,
+        "width": 1320,
+        "height": 82,
+        "top": 0,
+        "right": 1620,
+        "bottom": 82,
+        "left": 300
+      },
+      "h1": {
+        "x": 260,
+        "y": 147,
+        "width": 591.671875,
+        "height": 741.953125,
+        "top": 147,
+        "right": 851.671875,
+        "bottom": 888.953125,
+        "left": 260
+      },
+      "overflow": []
+    },
+    "reverseFocus": "button button-gold"
+  }
+]
